@@ -1,0 +1,193 @@
+~ cybersecurity ~
+is a malicious attempt to damage, disrupt, or gain unauthorized access to a computer system or network. - cyberattack
+is a network security system that monitors and controls incoming and outgoing network traffic based on predetermined security rules. - firewall
+is the process of converting plain text into coded text to prevent unauthorized access to sensitive information. - encryption
+is a malicious program that can infect a computer system and spread from one system to another. - virus
+is a term used to describe any malicious software designed to harm or disrupt computer systems. - malware
+a type of cyberattack that involves tricking people into giving away sensitive information such as passwords and credit card details. - phishing
+is a security measure that requires users to provide two forms of identification to gain access to a system or network. - two-factor authentication/2fa
+is a secure, encrypted network connection that allows users to access a private network from a public network, such as the internet. - virtual private network/vpn
+
+ a denial-of-service (DoS) attack?
+
+A DoS attack is a cyberattack that involves overwhelming a computer system or network with traffic, making it unavailable to users.
+
+
+
+ a distributed denial-of-service (DDoS) attack?
+
+A DDoS attack is a type of DoS attack that uses multiple compromised computers to flood a system or network with traffic, making it unavailable to users.
+
+
+
+ ransomware?
+
+Ransomware is a type of malware that encrypts a victim's files and demands a ransom in exchange for the decryption key.
+
+
+
+ a botnet?
+
+A botnet is a network of infected computers that are controlled remotely by a cybercriminal.
+
+
+
+ a vulnerability?
+
+A vulnerability is a weakness or flaw in a system that can be exploited by cybercriminals to gain unauthorized access or cause damage.
+
+
+
+ a patch?
+
+A patch is a software update designed to fix vulnerabilities or bugs in a program or operating system.
+
+
+
+ social engineering?
+
+Social engineering is a tactic used by cybercriminals to manipulate people into divulging sensitive information or performing actions that are against their interests.
+
+
+
+ a zero-day vulnerability?
+
+A zero-day vulnerability is a previously unknown vulnerability in software that is discovered by cybercriminals and exploited before a patch is released.
+
+
+
+ a security audit?
+
+A security audit is a process of evaluating a system or network to identify vulnerabilities and potential security risks.
+
+
+
+ a penetration test?
+
+A penetration test is a simulated attack on a system or network to identify vulnerabilities and weaknesses.
+
+
+
+
+
+ a firewall rule?
+
+A firewall rule is a set of conditions that determine how traffic is allowed or blocked through a firewall.
+
+
+
+ a security policy?
+
+A security policy is a set of guidelines and procedures that govern the protection of sensitive information and computer systems.
+
+
+
+ a data breach?
+
+A databreach is an incident where sensitive, confidential or protected data is accessed or disclosed without authorization, either accidentally or intentionally.
+
+
+
+ a man-in-the-middle attack?
+
+A man-in-the-middle attack is a type of cyberattack where an attacker intercepts communications between two parties to eavesdrop or modify the conversation.
+
+
+
+ a security incident?
+
+A security incident is any event that violates an organization's security policies, compromises its assets or operations, or poses a threat to its confidentiality, integrity, or availability.
+
+
+
+ a security breach?
+
+A security breach is a type of security incident where an unauthorized entity gains access to an organization's network, system, or data.
+
+
+
+ a cyber threat?
+
+A cyber threat is a potential danger or risk that exploits vulnerabilities in computer systems, networks, or applications, and can result in harm to individuals, organizations, or society.
+
+
+
+
+
+ a cybercrime?
+
+A cybercrime is a criminal activity that involves the use of digital technology or the internet, such as hacking, identity theft, fraud, or cyber espionage.
+
+
+
+ a security token?
+
+A security token is a device or software application that generates one-time passwords, cryptographic keys, or other authentication codes to verify a user's identity and protect access to a system or network.
+
+
+
+ a security incident response plan?
+
+A security incident response plan is a documented set of procedures and guidelines that outline the steps to be taken in case of a security incident or breach.
+
+
+
+ a vulnerability assessment?
+
+A vulnerability assessment is a process of identifying and prioritizing vulnerabilities in a system or network, and recommending mitigation measures to reduce the risk of exploitation.
+
+
+
+ a security awareness training?
+
+Security awareness training is a program designed to educate employees and users about the risks and best practices of cybersecurity, to improve their behavior and reduce the likelihood of security incidents.
+
+
+
+ a secure password?
+
+A secure password is a combination of letters, numbers, and symbols that is difficult to guess, and not used for other accounts or purposes.
+
+
+
+ a digital certificate?
+
+A digital certificate is a digital document that verifies the identity of an individual, organization, or website, and is used to establish secure communication and transactions over the internet.
+
+
+
+ a digital signature?
+
+A digital signature is a mathematical code that verifies the authenticity and integrity of a digital document or message, and provides a non-repudiation mechanism to prevent denial of responsibility.
+
+
+
+ a honeypot?
+
+A honeypot is a decoy system or network that is designed to attract and trap cybercriminals, and to collect information about their methods and intentions.
+
+
+
+ a security token service?
+
+A security token service is a web service that issues and manages security tokens for identity and access management, and provides authentication and authorization services across different applications and systems.
+
+
+
+ a cyber resilience?
+
+Cyber resilience is the ability of an organization to withstand, adapt to, and recover from cyberattacks or other disruptive events, and to maintain the continuity of its operations and services.
+
+
+is the knowledge and analysis of cyber threats, vulnerabilities, and malicious actors, and the use of this information to inform security strategies and defenses. - Threat intelligence
+is a virtualized or isolated environment that allows applications or code to be tested or run in a controlled and secure way, without affecting the production system or network. - sandbox environment
+a security mechanism that restricts or grants access to resources or services based on the identity, role, or permissions of the user or entity. - access control
+is a security tool that monitors network or system activity for suspicious behavior or events, and alerts security personnel or triggers an automated response. - intrusion detection system
+is a network security device that filters incoming and outgoing traffic based on predetermined rules or policies, to prevent unauthorized access or data leakage. - firewall
+is the process of converting plaintext into ciphertext using mathematical algorithms, to protect the confidentiality and integrity of data in transit or storage. - encryption
+is the process of converting ciphertext back into plaintext using a secret key or algorithm, to recover the original data. - decryption
+is a cyberattack that aims to disrupt or disable a system or network by overwhelming it with traffic or requests, rendering it inaccessible or unusable. - denial-of-service/DOS
+a type of malicious software that is designed to harm or exploit a system or network, such as viruses, worms, Trojans, or ransomware. - malware
+a type of cyberattack that exploits human psychology and behavior, such as phishing, pretexting, or baiting, to trick or manipulate users into divulging sensitive information or performing actions that compromise security. - social engineering
+is a security mechanism that requires users to provide multiple forms of identification or verification, such as a password, a security token, a biometric factor, or a smart card, to access a system or network. - multi-factor authentication
+A type of insurance that provides coverage for losses or damages related to cyberattacks or data breaches, such as legal fees, notification costs, or business interruption. - cyber insurance
