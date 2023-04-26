@@ -1,0 +1,202 @@
+{
+    "cybersecurity": [
+        {
+        "question": "the practice of protecting computer systems, networks, and sensitive data from unauthorized access, use, disclosure, disruption, modification, or destruction.",
+        "answer": "cybersecurity"
+        },
+        {
+        "question": "a malicious attempt to damage, disrupt, or gain unauthorized access to a computer system or network.",
+        "answer": "cyberattack"
+        },
+        {
+        "question": "a network security system that monitors and controls incoming and outgoing network traffic based on predetermined security rules.",
+        "answer": "firewall"
+        },
+        {
+        "question": "the process of converting plain text into coded text to prevent unauthorized access to sensitive information.",
+        "answer": "encryption"
+        },
+        {
+        "question": "a malicious program that can infect a computer system and spread from one system to another.",
+        "answer": "virus"
+        },
+        {
+        "question": "a term used to describe any malicious software designed to harm or disrupt computer systems.",
+        "answer": "malware"
+        },
+        {
+        "question": "a type of cyberattack that involves tricking people into giving away sensitive information such as passwords and credit card details.",
+        "answer": "phishing"
+        },
+        {
+        "question": "a security measure that requires users to provide two forms of identification to gain access to a system or network.",
+        "answer": "two-factor authentication/2fa"
+        },
+        {
+        "question": "a secure, encrypted network connection that allows users to access a private network from a public network, such as the internet.",
+        "answer": "virtual private network/vpn"
+        },
+        {
+        "question": "a cyberattack that involves overwhelming a computer system or network with traffic, making it unavailable to users.",
+        "answer": "denial-of-service/dos"
+        },
+        {
+        "question": "a type of DoS attack that uses multiple compromised computers to flood a system or network with traffic, making it unavailable to users.",
+        "answer": "distributed denial-of-service/ddos"
+        },
+        {
+        "question": "a type of malware that encrypts a victim's files and demands a ransom in exchange for the decryption key.",
+        "answer": "ransomware"
+        },
+        {
+        "question": "a network of infected computers that are controlled remotely by a cybercriminal.",
+        "answer": "botnet"
+        },
+        {
+        "question": "a weakness or flaw in a system that can be exploited by cybercriminals to gain unauthorized access or cause damage.",
+        "answer": "vulnerability"
+        },
+        {
+        "question": "a software update designed to fix vulnerabilities or bugs in a program or operating system.",
+        "answer": "patch"
+        },
+        {
+        "question": "a tactic used by cybercriminals to manipulate people into divulging sensitive information or performing actions that are against their interests.",
+        "answer": "social engineering"
+        },
+        {
+        "question": "a previously unknown vulnerability in software that is discovered by cybercriminals and exploited before a patch is released.",
+        "answer": "zero-day vulnerability"
+        },
+        {
+        "question": "a process of evaluating a system or network to identify vulnerabilities and potential security risks.",
+        "answer": "security audit"
+        },
+        {
+        "question": "a simulated attack on a system or network to identify vulnerabilities and weaknesses.",
+        "answer": "penetration test/pentesting/pentest"
+        },
+        {
+        "question": "a set of conditions that determine how traffic is allowed or blocked through a firewall.",
+        "answer": "firewall rule"
+        },
+        {
+        "question": "a set of guidelines and procedures that govern the protection of sensitive information and computer systems.",
+        "answer": "security policy"
+        },
+        {
+        "question": "an incident where sensitive, confidential or protected data is accessed or disclosed without authorization, either accidentally or intentionally.",
+        "answer": "data breach"
+        },
+        {
+        "question": "a type of cyberattack where an attacker intercepts communications between two parties to eavesdrop or modify the conversation.",
+        "answer": "man-in-the-middle attack"
+        },
+        {
+        "question": "any event that violates an organization's security policies, compromises its assets or operations, or poses a threat to its confidentiality, integrity, or availability.",
+        "answer": "security incident"
+        },
+        {
+        "question": "a type of security incident where an unauthorized entity gains access to an organization's network, system, or data.",
+        "answer": "security breach"
+        },
+        {
+        "question": "a potential danger or risk that exploits vulnerabilities in computer systems, networks, or applications, and can result in harm to individuals, organizations, or society.",
+        "answer": "cyber threat"
+        },
+        {
+        "question": "a criminal activity that involves the use of digital technology or the internet, such as hacking, identity theft, fraud, or cyber espionage.",
+        "answer": "cybercrime"
+        },
+        {
+        "question": "a device or software application that generates one time passwords, cryptographic keys, or other authentication codes to verify a user's identity and protect access to a system or network.",
+        "answer": "security token"
+        },
+        {
+        "question": "a documented set of procedures and guidelines that outline the steps to be taken in case of a security incident or breach.",
+        "answer": "security incident response plan"
+        },
+        {
+        "question": "a process of identifying and prioritizing vulnerabilities in a system or network, and recommending mitigation measures to reduce the risk of exploitation.",
+        "answer": "vulnerability assessment"
+        },
+        {
+        "question": "a program designed to educate employees and users about the risks and best practices of cybersecurity, to improve their behavior and reduce the likelihood of security incidents.",
+        "answer": "security awareness training"
+        },
+        {
+        "question": "a combination of letters, numbers, and symbols that is difficult to guess, and not used for other accounts or purposes.",
+        "answer": "secure password"
+        },
+        {
+        "question": "a digital document that verifies the identity of an individual, organization, or website, and is used to establish secure communication and transactions over the internet.",
+        "answer": "digital certificate"
+        },
+        {
+        "question": "a mathematical code that verifies the authenticity and integrity of a digital document or message, and provides a non repudiation mechanism to prevent denial of responsibility.",
+        "answer": "digital signature"
+        },
+        {
+        "question": "a decoy system or network that is designed to attract and trap cybercriminals, and to collect information about their methods and intentions.",
+        "answer": "honeypot"
+        },
+        {
+        "question": "a web service that issues and manages security tokens for identity and access management, and provides authentication and authorization services across different applications and systems.",
+        "answer": "security token service"
+        },
+        {
+        "question": "the ability of an organization to withstand, adapt to, and recover from cyberattacks or other disruptive events, and to maintain the continuity of its operations and services.",
+        "answer": "cyber resilience"
+        },
+        {
+        "question": "the knowledge and analysis of cyber threats, vulnerabilities, and malicious actors, and the use of this information to inform security strategies and defenses.",
+        "answer": "Threat intelligence"
+        },
+        {
+        "question": "a virtualized or isolated environment that allows applications or code to be tested or run in a controlled and secure way, without affecting the production system or network.",
+        "answer": "sandbox environment"
+        },
+        {
+        "question": "a security mechanism that restricts or grants access to resources or services based on the identity, role, or permissions of the user or entity.",
+        "answer": "access control"
+        },
+        {
+        "question": "a security tool that monitors network or system activity for suspicious behavior or events, and alerts security personnel or triggers an automated response.",
+        "answer": "intrusion detection system"
+        },
+        {
+        "question": "a network security device that filters incoming and outgoing traffic based on predetermined rules or policies, to prevent unauthorized access or data leakage.",
+        "answer": "firewall"
+        },
+        {
+        "question": "the process of converting plaintext into ciphertext using mathematical algorithms, to protect the confidentiality and integrity of data in transit or storage.",
+        "answer": "encryption"
+        },
+        {
+        "question": "the process of converting ciphertext back into plaintext using a secret key or algorithm, to recover the original data.",
+        "answer": "decryption"
+        },
+        {
+        "question": "a cyberattack that aims to disrupt or disable a system or network by overwhelming it with traffic or requests, rendering it inaccessible or unusable.",
+        "answer": "denial-of-service/DOS"
+        },
+        {
+        "question": "a type of malicious software that is designed to harm or exploit a system or network, such as viruses, worms, Trojans, or ransomware.",
+        "answer": "malware"
+        },
+        {
+        "question": "a type of cyberattack that exploits human psychology and behavior, such as phishing, pretexting, or baiting, to trick or manipulate users into divulging sensitive information or performing actions that compromise security.",
+        "answer": "social engineering"
+        },
+        {
+        "question": "a security mechanism that requires users to provide multiple forms of identification or verification, such as a password, a security token, a biometric factor, or a smart card, to access a system or network.",
+        "answer": "multi-factor authentication"
+        },
+        {
+        "question": "A type of insurance that provides coverage for losses or damages related to cyberattacks or data breaches, such as legal fees, notification costs, or business interruption.",
+        "answer": "cyber insurance"
+        }
+    ],
+    "networking": [],
+    "programming": []
+}

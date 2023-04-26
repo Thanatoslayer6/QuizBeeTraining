@@ -23,9 +23,9 @@ public class Main {
         System.out.println(String.format("# of Cybersecurity questions = %d\n# of Networking questions = %d\n# of Programming questions = %d\n", cybersecurity.size(), networking.size(), programming.size()));
         // System.out.println()
         // TODO: I Don't know why there's only 49 networking questions please help! I swear there are 50 idk im blind af ;-;
-        for (String key : networking.keySet()) {
-            System.out.println(key + "- " + networking.get(key));
-        }
+        // for (String key : networking.keySet()) {
+        //     System.out.println(key + "- " + networking.get(key));
+        // }
         // try {
         //     getQuestionsFromFile("questions.txt");
         // } catch (Exception e) {
