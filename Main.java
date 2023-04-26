@@ -19,10 +19,14 @@ public class Main {
     public static void main(String args[]){
 
         getQuestionsFromFile();
+        answerCybersecurityQuestions();
+        //answerNetworkingQuestions();
+    }
 
+    public static void answerCybersecurityQuestions() {
         // Randomize for questions cybersecurity
         System.out.println("\n\n~ CYBERSECURITY REVIEWER ~\n");
-        List keys = new ArrayList(cybersecurity.keySet());
+        List<String> keys = new ArrayList<String>(cybersecurity.keySet());
         Collections.shuffle(keys);
         String answer = "";
         int score = 0;
@@ -39,6 +43,28 @@ public class Main {
         }
         System.out.println(String.format("Cybersecurity Score: %d/%d", score, cybersecurity.size()));
     }
+
+    public static void answerNetworkingQuestions() {
+        // Randomize for questions for networking
+        System.out.println("\n\n~ NETWORKING REVIEWER ~\n");
+        List keys = new ArrayList(networking.keySet());
+        Collections.shuffle(keys);
+        String answer = "";
+        int score = 0;
+        for (Object i : keys) {
+            System.out.println(i);
+            System.out.print("ANSWER: ");
+            answer = scan.nextLine();
+            if (answer.equalsIgnoreCase(networking.get(i))) {
+                System.out.println("CORRECT ✓\n");
+                score++;
+            } else {
+                System.out.println("INCORRECT ✗  -> " + networking.get(i) + "\n");
+            }
+        }
+        System.out.println(String.format("Networking Score: %d/%d", score, networking.size()));
+    }
+
 
     public static void getQuestionsFromFile() {
         try {
