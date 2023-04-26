@@ -18,57 +18,76 @@ public class Main {
     static HashMap<String, String> programming = new HashMap<String, String>();
     public static void main(String args[]){
 
-        getQuestionsFromFile();
-        answerCybersecurityQuestions();
-        //answerNetworkingQuestions();
+        getQuestionsFromFile("questions.txt");
+        System.out.println("Successfully loaded all questions:");
+        System.out.println(String.format("# of Cybersecurity questions = %d\n# of Networking questions = %d\n# of Programming questions = %d\n", cybersecurity.size(), networking.size(), programming.size()));
+        // System.out.println()
+        // TODO: I Don't know why there's only 49 networking questions please help! I swear there are 50 idk im blind af ;-;
+        for (String key : networking.keySet()) {
+            System.out.println(key + "- " + networking.get(key));
+        }
+        // try {
+        //     getQuestionsFromFile("questions.txt");
+        // } catch (Exception e) {
+        //     e.printStackTrace();
+        // }
+        int cybersecurityScore = answerQuestions(cybersecurity, "Cybersecurity");
+        int networkingScore = answerQuestions(networking, "Networking");
+        int programmingScore = answerQuestions(programming, "Programming");
+        System.out.println(String.format("\n\nCybersecurity Score: %d/48\nNetworking Score: %d/50\nProgramming Score: %d/50\n", cybersecurityScore, networkingScore, programmingScore));
     }
+   
+    public static boolean isValidAnswer(String userInput, List<String> possibleAnswers) {
+        // Construct a regex pattern from the possible answers
+        String patternString = String.join("|", possibleAnswers);
+        patternString = "(?i)(" + patternString + ")";
+        Pattern answerPattern = Pattern.compile(patternString);
 
-    public static void answerCybersecurityQuestions() {
+        Matcher matcher = answerPattern.matcher(userInput);
+        return matcher.matches();
+    }    
+
+    public static int answerQuestions(HashMap<String, String> questions, String topic) {
         // Randomize for questions cybersecurity
-        System.out.println("\n\n~ CYBERSECURITY REVIEWER ~\n");
-        List<String> keys = new ArrayList<String>(cybersecurity.keySet());
+        System.out.println(String.format("\n~~ %s Reviewer ~~\n", topic));
+        List<String> keys = new ArrayList<String>(questions.keySet());
         Collections.shuffle(keys);
-        String answer = "";
+        String userAnswer = "", rightAnswer = "";
         int score = 0;
         for (Object i : keys) {
+            rightAnswer = questions.get(i);
             System.out.println(i);
             System.out.print("ANSWER: ");
-            answer = scan.nextLine();
-            if (answer.equalsIgnoreCase(cybersecurity.get(i))) {
+            userAnswer = scan.nextLine();
+
+            if (rightAnswer.contains("/")) { // Mean's that there are multiple possible answers
+                // isValidAnswer(userAnswer, Arrays.asList(rightAnswer.split("/")));
+                if (isValidAnswer(userAnswer, Arrays.asList(rightAnswer.split("/")))) {
+                    System.out.println("CORRECT ✓\n");
+                    score++;
+                    continue;
+                } else {
+                    System.out.println("INCORRECT ✗  -> " + rightAnswer + "\n");
+                    continue;
+                }
+            } 
+
+            if (userAnswer.equalsIgnoreCase(rightAnswer)) {
                 System.out.println("CORRECT ✓\n");
                 score++;
+                continue;
             } else {
-                System.out.println("INCORRECT ✗  -> " + cybersecurity.get(i) + "\n");
+                System.out.println("INCORRECT ✗  -> " + rightAnswer + "\n");
+                continue;
             }
         }
-        System.out.println(String.format("Cybersecurity Score: %d/%d", score, cybersecurity.size()));
+        System.out.println(String.format("%s Score: %d/%d", topic, score, questions.size()));
+        return score; // Return the score
     }
 
-    public static void answerNetworkingQuestions() {
-        // Randomize for questions for networking
-        System.out.println("\n\n~ NETWORKING REVIEWER ~\n");
-        List keys = new ArrayList(networking.keySet());
-        Collections.shuffle(keys);
-        String answer = "";
-        int score = 0;
-        for (Object i : keys) {
-            System.out.println(i);
-            System.out.print("ANSWER: ");
-            answer = scan.nextLine();
-            if (answer.equalsIgnoreCase(networking.get(i))) {
-                System.out.println("CORRECT ✓\n");
-                score++;
-            } else {
-                System.out.println("INCORRECT ✗  -> " + networking.get(i) + "\n");
-            }
-        }
-        System.out.println(String.format("Networking Score: %d/%d", score, networking.size()));
-    }
-
-
-    public static void getQuestionsFromFile() {
+    public static void getQuestionsFromFile(String filename) {
         try {
-			reader = new BufferedReader(new FileReader("questions.txt"));
+			reader = new BufferedReader(new FileReader(filename));
 			String line = reader.readLine();
             String[] splittedLine = new String[2];
             String status = "";
@@ -77,17 +96,17 @@ public class Main {
                     System.out.println("Starting to parse cybersecurity questions...");
                     status = "cybersecurity";
                     line = reader.readLine();
-                    continue;
+                    // continue;
                 } else if (line.equalsIgnoreCase("~ networking ~")) {
                     System.out.println("Starting to parse networking questions...");
                     status = "networking";
                     line = reader.readLine();
-                    continue;
+                    // continue;
                 } else if (line.equalsIgnoreCase("~ programming ~")) {
                     System.out.println("Starting to parse networking questions...");
                     status = "programming";
                     line = reader.readLine();
-                    continue;
+                    // continue;
                 }
 
                 splittedLine = line.split("-", 2);

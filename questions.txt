@@ -1,49 +1,100 @@
 ~ cybersecurity ~
-is a malicious attempt to damage, disrupt, or gain unauthorized access to a computer system or network. - cyberattack
-is a network security system that monitors and controls incoming and outgoing network traffic based on predetermined security rules. - firewall
-is the process of converting plain text into coded text to prevent unauthorized access to sensitive information. - encryption
-is a malicious program that can infect a computer system and spread from one system to another. - virus
-is a term used to describe any malicious software designed to harm or disrupt computer systems. - malware
+a malicious attempt to damage, disrupt, or gain unauthorized access to a computer system or network. - cyberattack
+a network security system that monitors and controls incoming and outgoing network traffic based on predetermined security rules. - firewall
+the process of converting plain text into coded text to prevent unauthorized access to sensitive information. - encryption
+a malicious program that can infect a computer system and spread from one system to another. - virus
+a term used to describe any malicious software designed to harm or disrupt computer systems. - malware
 a type of cyberattack that involves tricking people into giving away sensitive information such as passwords and credit card details. - phishing
-is a security measure that requires users to provide two forms of identification to gain access to a system or network. - two-factor authentication/2fa
-is a secure, encrypted network connection that allows users to access a private network from a public network, such as the internet. - virtual private network/vpn
-is a cyberattack that involves overwhelming a computer system or network with traffic, making it unavailable to users. - denial-of-service/dos
-is a type of DoS attack that uses multiple compromised computers to flood a system or network with traffic, making it unavailable to users. - distributed denial-of-service/ddos
-is a type of malware that encrypts a victim's files and demands a ransom in exchange for the decryption key. - ransomware
-is a network of infected computers that are controlled remotely by a cybercriminal. - botnet
-is a weakness or flaw in a system that can be exploited by cybercriminals to gain unauthorized access or cause damage. - vulnerability
-is a software update designed to fix vulnerabilities or bugs in a program or operating system. - patch
-is a tactic used by cybercriminals to manipulate people into divulging sensitive information or performing actions that are against their interests. - social engineering
-is a previously unknown vulnerability in software that is discovered by cybercriminals and exploited before a patch is released. - zero-day vulnerability
-is a process of evaluating a system or network to identify vulnerabilities and potential security risks. - security audit
-is a simulated attack on a system or network to identify vulnerabilities and weaknesses. - penetration test
-is a set of conditions that determine how traffic is allowed or blocked through a firewall. - firewall rule
-is a set of guidelines and procedures that govern the protection of sensitive information and computer systems. - security policy
-is an incident where sensitive, confidential or protected data is accessed or disclosed without authorization, either accidentally or intentionally. - data breach
-is a type of cyberattack where an attacker intercepts communications between two parties to eavesdrop or modify the conversation. - man-in-the-middle attack
-is any event that violates an organization's security policies, compromises its assets or operations, or poses a threat to its confidentiality, integrity, or availability. - security incident
-is a type of security incident where an unauthorized entity gains access to an organization's network, system, or data. - security breach
-is a potential danger or risk that exploits vulnerabilities in computer systems, networks, or applications, and can result in harm to individuals, organizations, or society. - cyber threat
-is a criminal activity that involves the use of digital technology or the internet, such as hacking, identity theft, fraud, or cyber espionage. - cybercrime
-is a device or software application that generates one time passwords, cryptographic keys, or other authentication codes to verify a user's identity and protect access to a system or network. - security token
-is a documented set of procedures and guidelines that outline the steps to be taken in case of a security incident or breach. - security incident response plan
-is a process of identifying and prioritizing vulnerabilities in a system or network, and recommending mitigation measures to reduce the risk of exploitation. - vulnerability assessment
-is a program designed to educate employees and users about the risks and best practices of cybersecurity, to improve their behavior and reduce the likelihood of security incidents. - security awareness training
-is a combination of letters, numbers, and symbols that is difficult to guess, and not used for other accounts or purposes. - secure password
-is a digital document that verifies the identity of an individual, organization, or website, and is used to establish secure communication and transactions over the internet. - digital certificate
-is a mathematical code that verifies the authenticity and integrity of a digital document or message, and provides a non repudiation mechanism to prevent denial of responsibility. - digital signature
-is a decoy system or network that is designed to attract and trap cybercriminals, and to collect information about their methods and intentions. - honeypot
-is a web service that issues and manages security tokens for identity and access management, and provides authentication and authorization services across different applications and systems. - security token service
-is the ability of an organization to withstand, adapt to, and recover from cyberattacks or other disruptive events, and to maintain the continuity of its operations and services. - cyber resilience
-is the knowledge and analysis of cyber threats, vulnerabilities, and malicious actors, and the use of this information to inform security strategies and defenses. - Threat intelligence
-is a virtualized or isolated environment that allows applications or code to be tested or run in a controlled and secure way, without affecting the production system or network. - sandbox environment
+a security measure that requires users to provide two forms of identification to gain access to a system or network. - two-factor authentication/2fa
+a secure, encrypted network connection that allows users to access a private network from a public network, such as the internet. - virtual private network/vpn
+a cyberattack that involves overwhelming a computer system or network with traffic, making it unavailable to users. - denial-of-service/dos
+a type of DoS attack that uses multiple compromised computers to flood a system or network with traffic, making it unavailable to users. - distributed denial-of-service/ddos
+a type of malware that encrypts a victim's files and demands a ransom in exchange for the decryption key. - ransomware
+a network of infected computers that are controlled remotely by a cybercriminal. - botnet
+a weakness or flaw in a system that can be exploited by cybercriminals to gain unauthorized access or cause damage. - vulnerability
+a software update designed to fix vulnerabilities or bugs in a program or operating system. - patch
+a tactic used by cybercriminals to manipulate people into divulging sensitive information or performing actions that are against their interests. - social engineering
+a previously unknown vulnerability in software that is discovered by cybercriminals and exploited before a patch is released. - zero-day vulnerability
+a process of evaluating a system or network to identify vulnerabilities and potential security risks. - security audit
+a simulated attack on a system or network to identify vulnerabilities and weaknesses. - penetration test/pentesting/pentest
+a set of conditions that determine how traffic is allowed or blocked through a firewall. - firewall rule
+a set of guidelines and procedures that govern the protection of sensitive information and computer systems. - security policy
+an incident where sensitive, confidential or protected data is accessed or disclosed without authorization, either accidentally or intentionally. - data breach
+a type of cyberattack where an attacker intercepts communications between two parties to eavesdrop or modify the conversation. - man-in-the-middle attack
+any event that violates an organization's security policies, compromises its assets or operations, or poses a threat to its confidentiality, integrity, or availability. - security incident
+a type of security incident where an unauthorized entity gains access to an organization's network, system, or data. - security breach
+a potential danger or risk that exploits vulnerabilities in computer systems, networks, or applications, and can result in harm to individuals, organizations, or society. - cyber threat
+a criminal activity that involves the use of digital technology or the internet, such as hacking, identity theft, fraud, or cyber espionage. - cybercrime
+a device or software application that generates one time passwords, cryptographic keys, or other authentication codes to verify a user's identity and protect access to a system or network. - security token
+a documented set of procedures and guidelines that outline the steps to be taken in case of a security incident or breach. - security incident response plan
+a process of identifying and prioritizing vulnerabilities in a system or network, and recommending mitigation measures to reduce the risk of exploitation. - vulnerability assessment
+a program designed to educate employees and users about the risks and best practices of cybersecurity, to improve their behavior and reduce the likelihood of security incidents. - security awareness training
+a combination of letters, numbers, and symbols that is difficult to guess, and not used for other accounts or purposes. - secure password
+a digital document that verifies the identity of an individual, organization, or website, and is used to establish secure communication and transactions over the internet. - digital certificate
+a mathematical code that verifies the authenticity and integrity of a digital document or message, and provides a non repudiation mechanism to prevent denial of responsibility. - digital signature
+a decoy system or network that is designed to attract and trap cybercriminals, and to collect information about their methods and intentions. - honeypot
+a web service that issues and manages security tokens for identity and access management, and provides authentication and authorization services across different applications and systems. - security token service
+the ability of an organization to withstand, adapt to, and recover from cyberattacks or other disruptive events, and to maintain the continuity of its operations and services. - cyber resilience
+the knowledge and analysis of cyber threats, vulnerabilities, and malicious actors, and the use of this information to inform security strategies and defenses. - Threat intelligence
+a virtualized or isolated environment that allows applications or code to be tested or run in a controlled and secure way, without affecting the production system or network. - sandbox environment
 a security mechanism that restricts or grants access to resources or services based on the identity, role, or permissions of the user or entity. - access control
-is a security tool that monitors network or system activity for suspicious behavior or events, and alerts security personnel or triggers an automated response. - intrusion detection system
-is a network security device that filters incoming and outgoing traffic based on predetermined rules or policies, to prevent unauthorized access or data leakage. - firewall
-is the process of converting plaintext into ciphertext using mathematical algorithms, to protect the confidentiality and integrity of data in transit or storage. - encryption
-is the process of converting ciphertext back into plaintext using a secret key or algorithm, to recover the original data. - decryption
-is a cyberattack that aims to disrupt or disable a system or network by overwhelming it with traffic or requests, rendering it inaccessible or unusable. - denial-of-service/DOS
+a security tool that monitors network or system activity for suspicious behavior or events, and alerts security personnel or triggers an automated response. - intrusion detection system
+a network security device that filters incoming and outgoing traffic based on predetermined rules or policies, to prevent unauthorized access or data leakage. - firewall
+the process of converting plaintext into ciphertext using mathematical algorithms, to protect the confidentiality and integrity of data in transit or storage. - encryption
+the process of converting ciphertext back into plaintext using a secret key or algorithm, to recover the original data. - decryption
+a cyberattack that aims to disrupt or disable a system or network by overwhelming it with traffic or requests, rendering it inaccessible or unusable. - denial-of-service/DOS
 a type of malicious software that is designed to harm or exploit a system or network, such as viruses, worms, Trojans, or ransomware. - malware
 a type of cyberattack that exploits human psychology and behavior, such as phishing, pretexting, or baiting, to trick or manipulate users into divulging sensitive information or performing actions that compromise security. - social engineering
-is a security mechanism that requires users to provide multiple forms of identification or verification, such as a password, a security token, a biometric factor, or a smart card, to access a system or network. - multi-factor authentication
+a security mechanism that requires users to provide multiple forms of identification or verification, such as a password, a security token, a biometric factor, or a smart card, to access a system or network. - multi-factor authentication
 A type of insurance that provides coverage for losses or damages related to cyberattacks or data breaches, such as legal fees, notification costs, or business interruption. - cyber insurance
+~ networking ~
+a collection of interconnected devices that are capable of exchanging data and resources. - network
+a network that is confined to a relatively small geographic area such as a building or campus. - LAN/Local area network
+a network that covers a larger geographic area than a LAN, such as a city or country. - WAN/Wide area network
+a device that connects multiple networks together and forwards data packets between them. - router
+a networking device that connects devices on a LAN and forwards data between them. - switch
+a network security device that monitors and controls incoming and outgoing network traffic based on predetermined security rules. - firewall
+a network that allows remote users to securely access a private network over the internet. - VPN/Virtual private network
+a protocol that translates human readable domain names into IP addresses that computers can use to identify each other on a network. - DNS/Domain name system
+a set of rules that govern the exchange of data between devices on a network. - protocol
+the most commonly used protocol suite for transmitting data over the internet and other networks. - TCP/IP
+refers to the amount of data that can be transmitted over a network in a given amount of time. - bandwidth
+the delay that occurs between the sending of a data packet and its receipt at the destination device. - latency
+a unit of data that is transmitted over a network. - packet
+a unique identifier assigned to a network interface controller (NIC) for use on a network. - MAC Address/Media access control address
+a unique identifier assigned to each device on a network for the purpose of identifying and communicating with other devices. - IP Address/Internet protocol address
+a technique used to map one IP address space into another by modifying network address information in the IP header of packets while they are in transit across a traffic routing device. - NAT/Network address translation
+a numeric code that defines the range of IP addresses that are available on a particular network. - subnet mask
+a device that connects two or more networks and routes data between them. - gateway
+a communication endpoint on a computer or network that allows a specific process or application to send and receive data. - port
+a command used to test the connectivity between two devices on a network by sending a small packet of data and measuring the time it takes for a response to be received. - ping
+a command used to trace the route that packets take between two devices on a network. - traceroute
+a protocol used for transferring files between computers on a network. - ftp/file transfer protocol
+a protocol used for transferring data between a client and server over the internet. - http/hypertext transfer protocol
+a protocol used for sending email over the internet. - smtp/simple mail transfer protocol
+a protocol used for retrieving email from a mail server. - post office protocol/pop
+a protocol used for retrieving and managing email messages from a mail server. - IMAP/Internet message access protocol
+a technology that allows voice communication over the internet. - voip/voice over internet protocol
+a protocol used for secure communication over the internet. - ssl/secure sockets layer
+a protocol used for secure communication over the internet. - tls/transport layer security
+the process of converting plain text data into a coded form to protect it from unauthorized access. - encryption
+the process of converting encrypted data back into plain text. - decryption
+a secure, encrypted connection between two devices over the internet. - vpn tunnel
+a network segment that is isolated from the internal network and exposed to the internet to provide services such as web servers. - dmz/demilitarized zone
+a device that distributes network traffic across multiple servers to improve performance and reliability. - load balancer
+a server that acts as an intermediary between a client and a server, and can be used to control access to resources on a network. - proxy server
+the physical or logical arrangement of devices on a network. - network topology
+a network topology in which every device is connected to every other device, providing redundancy and self healing capabilities. - mesh network/mesh/mesh topology
+a network topology in which all devices are connected to a central hub or switch. - star network/star/star topology
+a network topology in which all devices are connected to a single cable or transmission line. - bus network/bus/bus topology
+a network topology in which all devices are connected to a single cable or transmission line in a circular configuration. - ring network/ring/ring topology
+a network segment in which all devices can receive broadcast messages sent by any other device on the same segment. - broadcast domain
+a network segment in which packets from multiple devices can collide with each other, leading to data loss and network congestion. - collision domain
+a logical grouping of devices on a network that allows for the creation of separate broadcast domains. - vlan/virtual lan
+a portion of a larger network that has been divided into smaller, more manageable segments. - subnet
+a database maintained by a switch that associates MAC addresses with the ports on which they are connected. - mac table
+a network condition in which broadcast messages are continuously propagated on a network, causing congestion and network performance issues. - broadcast storm
+a hardware component that enables a computer or other device to connect to a network. - network interface card/NIC
+a networking device that amplifies and retransmits signals to extend the range of a network. - repeater
+a networking device that connects multiple devices on a network and forwards data between them. - hub
+a person responsible for managing and maintaining a computer network. Their duties may include setting up and configuring network devices, monitoring network performance, and troubleshooting network issues. - network administrator
