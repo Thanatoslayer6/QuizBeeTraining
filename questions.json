@@ -1,402 +1,604 @@
 {
-    "cybersecurity": [
-        {
-        "question": "the practice of protecting computer systems, networks, and sensitive data from unauthorized access, use, disclosure, disruption, modification, or destruction.",
-        "answer": "cybersecurity"
-        },
-        {
-        "question": "a malicious attempt to damage, disrupt, or gain unauthorized access to a computer system or network.",
-        "answer": "cyberattack"
-        },
-        {
-        "question": "a network security system that monitors and controls incoming and outgoing network traffic based on predetermined security rules.",
-        "answer": "firewall"
-        },
-        {
-        "question": "the process of converting plain text into coded text to prevent unauthorized access to sensitive information.",
-        "answer": "encryption"
-        },
-        {
-        "question": "a malicious program that can infect a computer system and spread from one system to another.",
-        "answer": "virus"
-        },
-        {
-        "question": "a term used to describe any malicious software designed to harm or disrupt computer systems.",
-        "answer": "malware"
-        },
-        {
-        "question": "a type of cyberattack that involves tricking people into giving away sensitive information such as passwords and credit card details.",
-        "answer": "phishing"
-        },
-        {
-        "question": "a security measure that requires users to provide two forms of identification to gain access to a system or network.",
-        "answer": "two-factor authentication/2fa"
-        },
-        {
-        "question": "a secure, encrypted network connection that allows users to access a private network from a public network, such as the internet.",
-        "answer": "virtual private network/vpn"
-        },
-        {
-        "question": "a cyberattack that involves overwhelming a computer system or network with traffic, making it unavailable to users.",
-        "answer": "denial-of-service/dos"
-        },
-        {
-        "question": "a type of DoS attack that uses multiple compromised computers to flood a system or network with traffic, making it unavailable to users.",
-        "answer": "distributed denial-of-service/ddos"
-        },
-        {
-        "question": "a type of malware that encrypts a victim's files and demands a ransom in exchange for the decryption key.",
-        "answer": "ransomware"
-        },
-        {
-        "question": "a network of infected computers that are controlled remotely by a cybercriminal.",
-        "answer": "botnet"
-        },
-        {
-        "question": "a weakness or flaw in a system that can be exploited by cybercriminals to gain unauthorized access or cause damage.",
-        "answer": "vulnerability"
-        },
-        {
-        "question": "a software update designed to fix vulnerabilities or bugs in a program or operating system.",
-        "answer": "patch"
-        },
-        {
-        "question": "a tactic used by cybercriminals to manipulate people into divulging sensitive information or performing actions that are against their interests.",
-        "answer": "social engineering"
-        },
-        {
-        "question": "a previously unknown vulnerability in software that is discovered by cybercriminals and exploited before a patch is released.",
-        "answer": "zero-day vulnerability"
-        },
-        {
-        "question": "a process of evaluating a system or network to identify vulnerabilities and potential security risks.",
-        "answer": "security audit"
-        },
-        {
-        "question": "a simulated attack on a system or network to identify vulnerabilities and weaknesses.",
-        "answer": "penetration test/pentesting/pentest"
-        },
-        {
-        "question": "a set of conditions that determine how traffic is allowed or blocked through a firewall.",
-        "answer": "firewall rule"
-        },
-        {
-        "question": "a set of guidelines and procedures that govern the protection of sensitive information and computer systems.",
-        "answer": "security policy"
-        },
-        {
-        "question": "an incident where sensitive, confidential or protected data is accessed or disclosed without authorization, either accidentally or intentionally.",
-        "answer": "data breach"
-        },
-        {
-        "question": "a type of cyberattack where an attacker intercepts communications between two parties to eavesdrop or modify the conversation.",
-        "answer": "man-in-the-middle attack/man in the middle/man-in-the-middle"
-        },
-        {
-        "question": "any event that violates an organization's security policies, compromises its assets or operations, or poses a threat to its confidentiality, integrity, or availability.",
-        "answer": "security incident"
-        },
-        {
-        "question": "a type of security incident where an unauthorized entity gains access to an organization's network, system, or data.",
-        "answer": "security breach"
-        },
-        {
-        "question": "a potential danger or risk that exploits vulnerabilities in computer systems, networks, or applications, and can result in harm to individuals, organizations, or society.",
-        "answer": "cyber threat"
-        },
-        {
-        "question": "a criminal activity that involves the use of digital technology or the internet, such as hacking, identity theft, fraud, or cyber espionage.",
-        "answer": "cybercrime"
-        },
-        {
-        "question": "a device or software application that generates one time passwords, cryptographic keys, or other authentication codes to verify a user's identity and protect access to a system or network.",
-        "answer": "security token"
-        },
-        {
-        "question": "a documented set of procedures and guidelines that outline the steps to be taken in case of a security incident or breach.",
-        "answer": "security incident response plan"
-        },
-        {
-        "question": "a process of identifying and prioritizing vulnerabilities in a system or network, and recommending mitigation measures to reduce the risk of exploitation.",
-        "answer": "vulnerability assessment"
-        },
-        {
-        "question": "a program designed to educate employees and users about the risks and best practices of cybersecurity, to improve their behavior and reduce the likelihood of security incidents.",
-        "answer": "security awareness training"
-        },
-        {
-        "question": "a combination of letters, numbers, and symbols that is difficult to guess, and not used for other accounts or purposes.",
-        "answer": "secure password"
-        },
-        {
-        "question": "a digital document that verifies the identity of an individual, organization, or website, and is used to establish secure communication and transactions over the internet.",
-        "answer": "digital certificate"
-        },
-        {
-        "question": "a mathematical code that verifies the authenticity and integrity of a digital document or message, and provides a non repudiation mechanism to prevent denial of responsibility.",
-        "answer": "digital signature"
-        },
-        {
-        "question": "a decoy system or network that is designed to attract and trap cybercriminals, and to collect information about their methods and intentions.",
-        "answer": "honeypot"
-        },
-        {
-        "question": "a web service that issues and manages security tokens for identity and access management, and provides authentication and authorization services across different applications and systems.",
-        "answer": "security token service"
-        },
-        {
-        "question": "the ability of an organization to withstand, adapt to, and recover from cyberattacks or other disruptive events, and to maintain the continuity of its operations and services.",
-        "answer": "cyber resilience"
-        },
-        {
-        "question": "the knowledge and analysis of cyber threats, vulnerabilities, and malicious actors, and the use of this information to inform security strategies and defenses.",
-        "answer": "Threat intelligence"
-        },
-        {
-        "question": "a virtualized or isolated environment that allows applications or code to be tested or run in a controlled and secure way, without affecting the production system or network.",
-        "answer": "sandbox environment"
-        },
-        {
-        "question": "a security mechanism that restricts or grants access to resources or services based on the identity, role, or permissions of the user or entity.",
-        "answer": "access control"
-        },
-        {
-        "question": "a security tool that monitors network or system activity for suspicious behavior or events, and alerts security personnel or triggers an automated response.",
-        "answer": "intrusion detection system"
-        },
-        {
-        "question": "a network security device that filters incoming and outgoing traffic based on predetermined rules or policies, to prevent unauthorized access or data leakage.",
-        "answer": "firewall"
-        },
-        {
-        "question": "the process of converting plaintext into ciphertext using mathematical algorithms, to protect the confidentiality and integrity of data in transit or storage.",
-        "answer": "encryption"
-        },
-        {
-        "question": "the process of converting ciphertext back into plaintext using a secret key or algorithm, to recover the original data.",
-        "answer": "decryption"
-        },
-        {
-        "question": "a cyberattack that aims to disrupt or disable a system or network by overwhelming it with traffic or requests, rendering it inaccessible or unusable.",
-        "answer": "denial-of-service/DOS"
-        },
-        {
-        "question": "a type of malicious software that is designed to harm or exploit a system or network, such as viruses, worms, Trojans, or ransomware.",
-        "answer": "malware"
-        },
-        {
-        "question": "a type of cyberattack that exploits human psychology and behavior, such as phishing, pretexting, or baiting, to trick or manipulate users into divulging sensitive information or performing actions that compromise security.",
-        "answer": "social engineering"
-        },
-        {
-        "question": "a security mechanism that requires users to provide multiple forms of identification or verification, such as a password, a security token, a biometric factor, or a smart card, to access a system or network.",
-        "answer": "multi-factor authentication"
-        },
-        {
-        "question": "A type of insurance that provides coverage for losses or damages related to cyberattacks or data breaches, such as legal fees, notification costs, or business interruption.",
-        "answer": "cyber insurance"
-        }
-    ],
-    "networking": [
+  "cybersecurity": [
     {
-       "question": "a collection of interconnected devices that are capable of exchanging data and resources.",
-       "answer": "network"
+      "question": "the practice of protecting computer systems, networks, and sensitive data from unauthorized access, use, disclosure, disruption, modification, or destruction.",
+      "answer": "cybersecurity"
     },
     {
-       "question": "a network that is confined to a relatively small geographic area such as a building or campus.",
-       "answer": "LAN/Local area network"
+      "question": "a malicious attempt to damage, disrupt, or gain unauthorized access to a computer system or network.",
+      "answer": "cyberattack"
     },
     {
-       "question": "a network that covers a larger geographic area than a LAN, such as a city or country.",
-       "answer": "WAN/Wide area network"
+      "question": "a network security system that monitors and controls incoming and outgoing network traffic based on predetermined security rules.",
+      "answer": "firewall"
     },
     {
-       "question": "a device that connects multiple networks together and forwards data packets between them.",
-       "answer": "router"
+      "question": "the process of converting plain text into coded text to prevent unauthorized access to sensitive information.",
+      "answer": "encryption"
     },
     {
-       "question": "a networking device that connects devices on a LAN and forwards data between them.",
-       "answer": "switch"
+      "question": "a malicious program that can infect a computer system and spread from one system to another.",
+      "answer": "virus"
     },
     {
-       "question": "a network security device that monitors and controls incoming and outgoing network traffic based on predetermined security rules.",
-       "answer": "firewall"
+      "question": "a term used to describe any malicious software designed to harm or disrupt computer systems.",
+      "answer": "malware"
     },
     {
-       "question": "a network that allows remote users to securely access a private network over the internet.",
-       "answer": "VPN/Virtual private network"
+      "question": "a type of cyberattack that involves tricking people into giving away sensitive information such as passwords and credit card details.",
+      "answer": "phishing"
     },
     {
-       "question": "a protocol that translates human readable domain names into IP addresses that computers can use to identify each other on a network.",
-       "answer": "DNS/Domain name system"
+      "question": "a security measure that requires users to provide two forms of identification to gain access to a system or network.",
+      "answer": "two-factor authentication/2fa"
     },
     {
-       "question": "a set of rules that govern the exchange of data between devices on a network.",
-       "answer": "protocol"
+      "question": "a secure, encrypted network connection that allows users to access a private network from a public network, such as the internet.",
+      "answer": "virtual private network/vpn"
     },
     {
-       "question": "the most commonly used protocol suite for transmitting data over the internet and other networks.",
-       "answer": "TCP/IP"
+      "question": "a cyberattack that involves overwhelming a computer system or network with traffic, making it unavailable to users.",
+      "answer": "denial-of-service/dos"
     },
     {
-       "question": "refers to the amount of data that can be transmitted over a network in a given amount of time.",
-       "answer": "bandwidth"
+      "question": "a type of DoS attack that uses multiple compromised computers to flood a system or network with traffic, making it unavailable to users.",
+      "answer": "distributed denial-of-service/ddos"
     },
     {
-       "question": "the delay that occurs between the sending of a data packet and its receipt at the destination device.",
-       "answer": "latency"
+      "question": "a type of malware that encrypts a victim's files and demands a ransom in exchange for the decryption key.",
+      "answer": "ransomware"
     },
     {
-       "question": "a unit of data that is transmitted over a network.",
-       "answer": "packet"
+      "question": "a network of infected computers that are controlled remotely by a cybercriminal.",
+      "answer": "botnet"
     },
     {
-       "question": "a unique identifier assigned to a network interface controller (NIC) for use on a network.",
-       "answer": "MAC Address/Media access control address"
+      "question": "a weakness or flaw in a system that can be exploited by cybercriminals to gain unauthorized access or cause damage.",
+      "answer": "vulnerability"
     },
     {
-       "question": "a unique identifier assigned to each device on a network for the purpose of identifying and communicating with other devices.",
-       "answer": "IP Address/Internet protocol address"
+      "question": "a software update designed to fix vulnerabilities or bugs in a program or operating system.",
+      "answer": "patch"
     },
     {
-       "question": "a technique used to map one IP address space into another by modifying network address information in the IP header of packets while they are in transit across a traffic routing device.",
-       "answer": "NAT/Network address translation"
+      "question": "a tactic used by cybercriminals to manipulate people into divulging sensitive information or performing actions that are against their interests.",
+      "answer": "social engineering"
     },
     {
-       "question": "a numeric code that defines the range of IP addresses that are available on a particular network.",
-       "answer": "subnet mask"
+      "question": "a previously unknown vulnerability in software that is discovered by cybercriminals and exploited before a patch is released.",
+      "answer": "zero-day vulnerability"
     },
     {
-       "question": "a device that connects two or more networks and routes data between them.",
-       "answer": "gateway"
+      "question": "a process of evaluating a system or network to identify vulnerabilities and potential security risks.",
+      "answer": "security audit"
     },
     {
-       "question": "a communication endpoint on a computer or network that allows a specific process or application to send and receive data.",
-       "answer": "port"
+      "question": "a simulated attack on a system or network to identify vulnerabilities and weaknesses.",
+      "answer": "penetration test/pentesting/pentest"
     },
     {
-       "question": "a command used to test the connectivity between two devices on a network by sending a small packet of data and measuring the time it takes for a response to be received.",
-       "answer": "ping"
+      "question": "a set of conditions that determine how traffic is allowed or blocked through a firewall.",
+      "answer": "firewall rule"
     },
     {
-       "question": "a command used to trace the route that packets take between two devices on a network.",
-       "answer": "traceroute"
+      "question": "a set of guidelines and procedures that govern the protection of sensitive information and computer systems.",
+      "answer": "security policy"
     },
     {
-       "question": "a protocol used for transferring files between computers on a network.",
-       "answer": "ftp/file transfer protocol"
+      "question": "an incident where sensitive, confidential or protected data is accessed or disclosed without authorization, either accidentally or intentionally.",
+      "answer": "data breach"
     },
     {
-       "question": "a protocol used for transferring data between a client and server over the internet.",
-       "answer": "http/hypertext transfer protocol"
+      "question": "a type of cyberattack where an attacker intercepts communications between two parties to eavesdrop or modify the conversation.",
+      "answer": "man-in-the-middle attack/man in the middle/man-in-the-middle"
     },
     {
-       "question": "a protocol used for sending email over the internet.",
-       "answer": "smtp/simple mail transfer protocol"
+      "question": "any event that violates an organization's security policies, compromises its assets or operations, or poses a threat to its confidentiality, integrity, or availability.",
+      "answer": "security incident"
     },
     {
-       "question": "a protocol used for retrieving email from a mail server.",
-       "answer": "post office protocol/pop"
+      "question": "a type of security incident where an unauthorized entity gains access to an organization's network, system, or data.",
+      "answer": "security breach"
     },
     {
-       "question": "a protocol used for retrieving and managing email messages from a mail server.",
-       "answer": "IMAP/Internet message access protocol"
+      "question": "a potential danger or risk that exploits vulnerabilities in computer systems, networks, or applications, and can result in harm to individuals, organizations, or society.",
+      "answer": "cyber threat"
     },
     {
-       "question": "a technology that allows voice communication over the internet.",
-       "answer": "voip/voice over internet protocol"
+      "question": "a criminal activity that involves the use of digital technology or the internet, such as hacking, identity theft, fraud, or cyber espionage.",
+      "answer": "cybercrime"
     },
     {
-       "question": "a protocol used for secure communication over the internet.",
-       "answer": "ssl/secure sockets layer"
+      "question": "a device or software application that generates one time passwords, cryptographic keys, or other authentication codes to verify a user's identity and protect access to a system or network.",
+      "answer": "security token"
     },
     {
-       "question": "a protocol used for secure communication over the internet.",
-       "answer": "tls/transport layer security"
+      "question": "a documented set of procedures and guidelines that outline the steps to be taken in case of a security incident or breach.",
+      "answer": "security incident response plan"
     },
     {
-       "question": "the process of converting plain text data into a coded form to protect it from unauthorized access.",
-       "answer": "encryption"
+      "question": "a process of identifying and prioritizing vulnerabilities in a system or network, and recommending mitigation measures to reduce the risk of exploitation.",
+      "answer": "vulnerability assessment"
     },
     {
-       "question": "the process of converting encrypted data back into plain text.",
-       "answer": "decryption"
+      "question": "a program designed to educate employees and users about the risks and best practices of cybersecurity, to improve their behavior and reduce the likelihood of security incidents.",
+      "answer": "security awareness training"
     },
     {
-       "question": "a secure, encrypted connection between two devices over the internet.",
-       "answer": "vpn tunnel"
+      "question": "a combination of letters, numbers, and symbols that is difficult to guess, and not used for other accounts or purposes.",
+      "answer": "secure password"
     },
     {
-       "question": "a network segment that is isolated from the internal network and exposed to the internet to provide services such as web servers.",
-       "answer": "dmz/demilitarized zone"
+      "question": "a digital document that verifies the identity of an individual, organization, or website, and is used to establish secure communication and transactions over the internet.",
+      "answer": "digital certificate"
     },
     {
-       "question": "a device that distributes network traffic across multiple servers to improve performance and reliability.",
-       "answer": "load balancer"
+      "question": "a mathematical code that verifies the authenticity and integrity of a digital document or message, and provides a non repudiation mechanism to prevent denial of responsibility.",
+      "answer": "digital signature"
     },
     {
-       "question": "a server that acts as an intermediary between a client and a server, and can be used to control access to resources on a network.",
-       "answer": "proxy server"
+      "question": "a decoy system or network that is designed to attract and trap cybercriminals, and to collect information about their methods and intentions.",
+      "answer": "honeypot"
     },
     {
-       "question": "the physical or logical arrangement of devices on a network.",
-       "answer": "network topology"
+      "question": "a web service that issues and manages security tokens for identity and access management, and provides authentication and authorization services across different applications and systems.",
+      "answer": "security token service"
     },
     {
-       "question": "a network topology in which every device is connected to every other device, providing redundancy and self healing capabilities.",
-       "answer": "mesh network/mesh/mesh topology"
+      "question": "the ability of an organization to withstand, adapt to, and recover from cyberattacks or other disruptive events, and to maintain the continuity of its operations and services.",
+      "answer": "cyber resilience"
     },
     {
-       "question": "a network topology in which all devices are connected to a central hub or switch.",
-       "answer": "star network/star/star topology"
+      "question": "the knowledge and analysis of cyber threats, vulnerabilities, and malicious actors, and the use of this information to inform security strategies and defenses.",
+      "answer": "Threat intelligence"
     },
     {
-       "question": "a network topology in which all devices are connected to a single cable or transmission line.",
-       "answer": "bus network/bus/bus topology"
+      "question": "a virtualized or isolated environment that allows applications or code to be tested or run in a controlled and secure way, without affecting the production system or network.",
+      "answer": "sandbox environment"
     },
     {
-       "question": "a network topology in which all devices are connected to a single cable or transmission line in a circular configuration.",
-       "answer": "ring network/ring/ring topology"
+      "question": "a security mechanism that restricts or grants access to resources or services based on the identity, role, or permissions of the user or entity.",
+      "answer": "access control"
     },
     {
-       "question": "a network segment in which all devices can receive broadcast messages sent by any other device on the same segment.",
-       "answer": "broadcast domain"
+      "question": "a security tool that monitors network or system activity for suspicious behavior or events, and alerts security personnel or triggers an automated response.",
+      "answer": "intrusion detection system"
     },
     {
-       "question": "a network segment in which packets from multiple devices can collide with each other, leading to data loss and network congestion.",
-       "answer": "collision domain"
+      "question": "a network security device that filters incoming and outgoing traffic based on predetermined rules or policies, to prevent unauthorized access or data leakage.",
+      "answer": "firewall"
     },
     {
-       "question": "a logical grouping of devices on a network that allows for the creation of separate broadcast domains.",
-       "answer": "vlan/virtual lan"
+      "question": "the process of converting plaintext into ciphertext using mathematical algorithms, to protect the confidentiality and integrity of data in transit or storage.",
+      "answer": "encryption"
     },
     {
-       "question": "a portion of a larger network that has been divided into smaller, more manageable segments.",
-       "answer": "subnet"
+      "question": "the process of converting ciphertext back into plaintext using a secret key or algorithm, to recover the original data.",
+      "answer": "decryption"
     },
     {
-       "question": "a database maintained by a switch that associates MAC addresses with the ports on which they are connected.",
-       "answer": "mac table"
+      "question": "a cyberattack that aims to disrupt or disable a system or network by overwhelming it with traffic or requests, rendering it inaccessible or unusable.",
+      "answer": "denial-of-service/DOS"
     },
     {
-       "question": "a network condition in which broadcast messages are continuously propagated on a network, causing congestion and network performance issues.",
-       "answer": "broadcast storm"
+      "question": "a type of malicious software that is designed to harm or exploit a system or network, such as viruses, worms, Trojans, or ransomware.",
+      "answer": "malware"
     },
     {
-       "question": "a hardware component that enables a computer or other device to connect to a network.",
-       "answer": "network interface card/NIC"
+      "question": "a type of cyberattack that exploits human psychology and behavior, such as phishing, pretexting, or baiting, to trick or manipulate users into divulging sensitive information or performing actions that compromise security.",
+      "answer": "social engineering"
     },
     {
-       "question": "a networking device that amplifies and retransmits signals to extend the range of a network.",
-       "answer": "repeater"
+      "question": "a security mechanism that requires users to provide multiple forms of identification or verification, such as a password, a security token, a biometric factor, or a smart card, to access a system or network.",
+      "answer": "multi-factor authentication"
     },
     {
-       "question": "a networking device that connects multiple devices on a network and forwards data between them.",
-       "answer": "hub"
+      "question": "A type of insurance that provides coverage for losses or damages related to cyberattacks or data breaches, such as legal fees, notification costs, or business interruption.",
+      "answer": "cyber insurance"
+    }
+  ],
+  "networking": [
+    {
+      "question": "a collection of interconnected devices that are capable of exchanging data and resources.",
+      "answer": "network"
     },
     {
-       "question": "a person responsible for managing and maintaining a computer network. Their duties may include setting up and configuring network devices, monitoring network performance, and troubleshooting network issues.",
-       "answer": "network administrator"
-    }],
-    "programming": []
+      "question": "a network that is confined to a relatively small geographic area such as a building or campus.",
+      "answer": "LAN/Local area network"
+    },
+    {
+      "question": "a network that covers a larger geographic area than a LAN, such as a city or country.",
+      "answer": "WAN/Wide area network"
+    },
+    {
+      "question": "a device that connects multiple networks together and forwards data packets between them.",
+      "answer": "router"
+    },
+    {
+      "question": "a networking device that connects devices on a LAN and forwards data between them.",
+      "answer": "switch"
+    },
+    {
+      "question": "a network security device that monitors and controls incoming and outgoing network traffic based on predetermined security rules.",
+      "answer": "firewall"
+    },
+    {
+      "question": "a network that allows remote users to securely access a private network over the internet.",
+      "answer": "VPN/Virtual private network"
+    },
+    {
+      "question": "a protocol that translates human readable domain names into IP addresses that computers can use to identify each other on a network.",
+      "answer": "DNS/Domain name system"
+    },
+    {
+      "question": "a set of rules that govern the exchange of data between devices on a network.",
+      "answer": "protocol"
+    },
+    {
+      "question": "the most commonly used protocol suite for transmitting data over the internet and other networks.",
+      "answer": "TCP/IP"
+    },
+    {
+      "question": "refers to the amount of data that can be transmitted over a network in a given amount of time.",
+      "answer": "bandwidth"
+    },
+    {
+      "question": "the delay that occurs between the sending of a data packet and its receipt at the destination device.",
+      "answer": "latency"
+    },
+    {
+      "question": "a unit of data that is transmitted over a network.",
+      "answer": "packet"
+    },
+    {
+      "question": "a unique identifier assigned to a network interface controller (NIC) for use on a network.",
+      "answer": "MAC Address/Media access control address"
+    },
+    {
+      "question": "a unique identifier assigned to each device on a network for the purpose of identifying and communicating with other devices.",
+      "answer": "IP Address/Internet protocol address"
+    },
+    {
+      "question": "a technique used to map one IP address space into another by modifying network address information in the IP header of packets while they are in transit across a traffic routing device.",
+      "answer": "NAT/Network address translation"
+    },
+    {
+      "question": "a numeric code that defines the range of IP addresses that are available on a particular network.",
+      "answer": "subnet mask"
+    },
+    {
+      "question": "a device that connects two or more networks and routes data between them.",
+      "answer": "gateway"
+    },
+    {
+      "question": "a communication endpoint on a computer or network that allows a specific process or application to send and receive data.",
+      "answer": "port"
+    },
+    {
+      "question": "a command used to test the connectivity between two devices on a network by sending a small packet of data and measuring the time it takes for a response to be received.",
+      "answer": "ping"
+    },
+    {
+      "question": "a command used to trace the route that packets take between two devices on a network.",
+      "answer": "traceroute"
+    },
+    {
+      "question": "a protocol used for transferring files between computers on a network.",
+      "answer": "ftp/file transfer protocol"
+    },
+    {
+      "question": "a protocol used for transferring data between a client and server over the internet.",
+      "answer": "http/hypertext transfer protocol"
+    },
+    {
+      "question": "a protocol used for sending email over the internet.",
+      "answer": "smtp/simple mail transfer protocol"
+    },
+    {
+      "question": "a protocol used for retrieving email from a mail server.",
+      "answer": "post office protocol/pop"
+    },
+    {
+      "question": "a protocol used for retrieving and managing email messages from a mail server.",
+      "answer": "IMAP/Internet message access protocol"
+    },
+    {
+      "question": "a technology that allows voice communication over the internet.",
+      "answer": "voip/voice over internet protocol"
+    },
+    {
+      "question": "a protocol used for secure communication over the internet.",
+      "answer": "ssl/secure sockets layer"
+    },
+    {
+      "question": "a protocol used for secure communication over the internet.",
+      "answer": "tls/transport layer security"
+    },
+    {
+      "question": "the process of converting plain text data into a coded form to protect it from unauthorized access.",
+      "answer": "encryption"
+    },
+    {
+      "question": "the process of converting encrypted data back into plain text.",
+      "answer": "decryption"
+    },
+    {
+      "question": "a secure, encrypted connection between two devices over the internet.",
+      "answer": "vpn tunnel"
+    },
+    {
+      "question": "a network segment that is isolated from the internal network and exposed to the internet to provide services such as web servers.",
+      "answer": "dmz/demilitarized zone"
+    },
+    {
+      "question": "a device that distributes network traffic across multiple servers to improve performance and reliability.",
+      "answer": "load balancer"
+    },
+    {
+      "question": "a server that acts as an intermediary between a client and a server, and can be used to control access to resources on a network.",
+      "answer": "proxy server"
+    },
+    {
+      "question": "the physical or logical arrangement of devices on a network.",
+      "answer": "network topology"
+    },
+    {
+      "question": "a network topology in which every device is connected to every other device, providing redundancy and self healing capabilities.",
+      "answer": "mesh network/mesh/mesh topology"
+    },
+    {
+      "question": "a network topology in which all devices are connected to a central hub or switch.",
+      "answer": "star network/star/star topology"
+    },
+    {
+      "question": "a network topology in which all devices are connected to a single cable or transmission line.",
+      "answer": "bus network/bus/bus topology"
+    },
+    {
+      "question": "a network topology in which all devices are connected to a single cable or transmission line in a circular configuration.",
+      "answer": "ring network/ring/ring topology"
+    },
+    {
+      "question": "a network segment in which all devices can receive broadcast messages sent by any other device on the same segment.",
+      "answer": "broadcast domain"
+    },
+    {
+      "question": "a network segment in which packets from multiple devices can collide with each other, leading to data loss and network congestion.",
+      "answer": "collision domain"
+    },
+    {
+      "question": "a logical grouping of devices on a network that allows for the creation of separate broadcast domains.",
+      "answer": "vlan/virtual lan"
+    },
+    {
+      "question": "a portion of a larger network that has been divided into smaller, more manageable segments.",
+      "answer": "subnet"
+    },
+    {
+      "question": "a database maintained by a switch that associates MAC addresses with the ports on which they are connected.",
+      "answer": "mac table"
+    },
+    {
+      "question": "a network condition in which broadcast messages are continuously propagated on a network, causing congestion and network performance issues.",
+      "answer": "broadcast storm"
+    },
+    {
+      "question": "a hardware component that enables a computer or other device to connect to a network.",
+      "answer": "network interface card/NIC"
+    },
+    {
+      "question": "a networking device that amplifies and retransmits signals to extend the range of a network.",
+      "answer": "repeater"
+    },
+    {
+      "question": "a networking device that connects multiple devices on a network and forwards data between them.",
+      "answer": "hub"
+    },
+    {
+      "question": "a person responsible for managing and maintaining a computer network. Their duties may include setting up and configuring network devices, monitoring network performance, and troubleshooting network issues.",
+      "answer": "network administrator"
+    }
+  ],
+  "programming": [
+    {
+      "question": "is the process of creating software, applications, and computer systems using programming languages.",
+      "answer": "programming"
+    },
+    {
+      "question": "a set of instructions used to create software or applications.",
+      "answer": "programming language"
+    },
+    {
+      "question": "a set of instructions used to solve a specific problem or perform a specific task.",
+      "answer": "algorithm"
+    },
+    {
+      "question": "the process of finding and fixing errors, bugs, and issues in software or applications.",
+      "answer": "debugging"
+    },
+    {
+      "question": "a system that manages changes to software or applications over time.",
+      "answer": "version control/version control system"
+    },
+    {
+      "question": "a software application that provides a complete environment for programming.",
+      "answer": "ide/integrated development environment"
+    },
+    {
+      "question": "a software tool that translates source code into executable code.",
+      "answer": "compiler"
+    },
+    {
+      "question": "a software tool that executes source code directly, without translating it into executable code.",
+      "answer": "interpreter"
+    },
+    {
+      "question": "a named storage location that holds a value that can be changed during the execution of a program.",
+      "answer": "variable"
+    },
+    {
+      "question": "a set of instructions that performs a specific task and can be called from other parts of a program.",
+      "answer": "function"
+    },
+    {
+      "question": "a programming technique where a function calls itself to solve a problem.",
+      "answer": "recursion"
+    },
+    {
+      "question": "a programming paradigm that uses objects to represent real world entities and their relationships.",
+      "answer": "object-oriented programming/oop"
+    },
+    {
+      "question": "a feature of object-oriented programming that allows a subclass to inherit properties and behaviors from a superclass.",
+      "answer": "inheritance"
+    },
+    {
+      "question": "a feature of object-oriented programming that allows objects of different types to be treated as if they were of the same type.",
+      "answer": "polymorphism"
+    },
+    {
+      "question": "a feature of object-oriented programming that hides the implementation details of a class from other parts of a program.",
+      "answer": "encapsulation"
+    },
+    {
+      "question": "a blueprint for creating objects that have properties and behaviors.",
+      "answer": "class"
+    },
+    {
+      "question": "a special method that is called when an object is created, and is used to initialize the object's properties.",
+      "answer": "constructor"
+    },
+    {
+      "question": "a collection of methods and properties that define a set of actions that a class can perform.",
+      "answer": "interface"
+    },
+    {
+      "question": "a way of organizing and storing data in a computer program.",
+      "answer": "data structure"
+    },
+    {
+      "question": "a data structure that consists of a sequence of nodes, each containing a value and a reference to the next node in the sequence.",
+      "answer": "linked list"
+    },
+    {
+      "question": "a data structure that stores and retrieves data using a last-in-first-out (LIFO) approach.",
+      "answer": "stack"
+    },
+    {
+      "question": "a data structure that stores and retrieves data using a first-in-first-out (FIFO) approach.",
+      "answer": "queue"
+    },
+    {
+      "question": "a data structure that consists of nodes, each of which has at most two child nodes.",
+      "answer": "binary tree"
+    },
+    {
+      "question": "a programming technique where a function calls itself to solve a problem.",
+      "answer": "recursion"
+    },
+    {
+      "question": "a collection of data that is organized and stored for easy access and retrieval.",
+      "answer": "database"
+    },
+    {
+      "question": "a programming language used to manage and manipulate data in a relational database.",
+      "answer": "sql/structured query language"
+    },
+    {
+      "question": "the process of organizing data in a database to reduce redundancy and improve data integrity.",
+      "answer": "normalization"
+    },
+    {
+      "question": "a unique identifier for a record in a database table.",
+      "answer": "primary key"
+    },
+    {
+      "question": "a field in a database table that refers to the primary key of another table, establishing a relationship between the two tables.",
+      "answer": "foreign key"
+    },
+    {
+      "question": "a request for data from a database, usually expressed in SQL.",
+      "answer": "query"
+    },
+    {
+      "question": "a precompiled set of SQL statements that can be executed as a single unit.",
+      "answer": "stored procedure"
+    },
+    {
+      "question": "a database object that executes a set of actions in response to a specified event.",
+      "answer": "trigger"
+    },
+    {
+      "question": "a software application that runs on a web server and can be accessed through a web browser.",
+      "answer": "web application"
+    },
+    {
+      "question": "a markup language used to create web pages.",
+      "answer": "html/hypertext markup language"
+    },
+    {
+      "question": "a stylesheet language used to describe the look and formatting of a web page.",
+      "answer": "css/cascading style sheets"
+    },
+    {
+      "question": "a programming language used to create interactive web applications.",
+      "answer": "javascript"
+    },
+    {
+      "question": "a JavaScript library that simplifies the process of writing JavaScript code for web pages.",
+      "answer": "jquery"
+    },
+    {
+      "question": "a technique used to create dynamic and responsive web applications without reloading the entire web page.",
+      "answer": "ajax/asynchronous javascript and xml"
+    },
+    {
+      "question": "an API that uses HTTP requests to retrieve, create, update, or delete data.",
+      "answer": "restful api/representational state transfer application programming interface"
+    },
+    {
+      "question": "a lightweight data interchange format that is easy for humans to read and write and easy for machines to parse and generate.",
+      "answer": "json/javascript object notation"
+    },
+    {
+      "question": "a test that verifies the functionality of a single unit or component of a software system.",
+      "answer": "unit test"
+    },
+    {
+      "question": "a software development process that emphasizes writing automated tests before writing the code.",
+      "answer": "test-driven development"
+    },
+    {
+      "question": "a software development practice where changes to the code are automatically tested and integrated into the main codebase.",
+      "answer": "continuous integration"
+    },
+    {
+      "question": "a software development practice where changes to the code are automatically tested and released to production.",
+      "answer": "continuous delivery"
+    },
+    {
+      "question": "a containerization platform that allows developers to create, deploy, and run applications in a virtualized environment.",
+      "answer": "docker"
+    },
+    {
+      "question": "an open-source container orchestration platform that automates the deployment, scaling, and management of containerized applications.",
+      "answer": "kubernetes"
+    },
+    {
+      "question": "a version control system used to track changes to code and collaborate with other developers.",
+      "answer": "Git"
+    },
+    {
+      "question": "a web-based platform for hosting and collaborating on Git repositories.",
+      "answer": "Github"
+    },
+    {
+      "question": "a process where one or more developers review code written by another developer to ensure its quality and adherence to coding standards.",
+      "answer": "code review"
+    },
+    {
+      "question": "the process of restructuring existing code without changing its functionality to improve its readability, maintainability, and performance.",
+      "answer": "code refactoring"
+    }
+  ]
 }

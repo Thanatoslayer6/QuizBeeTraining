@@ -1,0 +1,50 @@
+is the process of creating software, applications, and computer systems using programming languages. | programming
+a set of instructions used to create software or applications. | programming language
+a set of instructions used to solve a specific problem or perform a specific task. | algorithm
+the process of finding and fixing errors, bugs, and issues in software or applications. | debugging
+a system that manages changes to software or applications over time. | version control/version control system
+a software application that provides a complete environment for programming. | ide/integrated development environment
+a software tool that translates source code into executable code. | compiler
+a software tool that executes source code directly, without translating it into executable code. | interpreter
+a named storage location that holds a value that can be changed during the execution of a program. | variable
+a set of instructions that performs a specific task and can be called from other parts of a program. | function
+a programming technique where a function calls itself to solve a problem. | recursion
+a programming paradigm that uses objects to represent real world entities and their relationships. | object-oriented programming/oop
+a feature of object-oriented programming that allows a subclass to inherit properties and behaviors from a superclass. | inheritance
+a feature of object-oriented programming that allows objects of different types to be treated as if they were of the same type. | polymorphism
+a feature of object-oriented programming that hides the implementation details of a class from other parts of a program. | encapsulation
+a blueprint for creating objects that have properties and behaviors. | class
+a special method that is called when an object is created, and is used to initialize the object's properties. | constructor
+a collection of methods and properties that define a set of actions that a class can perform. | interface
+a way of organizing and storing data in a computer program. | data structure
+a data structure that consists of a sequence of nodes, each containing a value and a reference to the next node in the sequence. | linked list
+a data structure that stores and retrieves data using a last-in-first-out (LIFO) approach. | stack
+a data structure that stores and retrieves data using a first-in-first-out (FIFO) approach. | queue
+a data structure that consists of nodes, each of which has at most two child nodes. | binary tree
+a programming technique where a function calls itself to solve a problem. | recursion
+a collection of data that is organized and stored for easy access and retrieval. | database
+a programming language used to manage and manipulate data in a relational database. | sql/structured query language
+the process of organizing data in a database to reduce redundancy and improve data integrity. | normalization
+a unique identifier for a record in a database table. | primary key
+a field in a database table that refers to the primary key of another table, establishing a relationship between the two tables. | foreign key
+a request for data from a database, usually expressed in SQL. | query
+a precompiled set of SQL statements that can be executed as a single unit. | stored procedure
+a database object that executes a set of actions in response to a specified event. | trigger
+a software application that runs on a web server and can be accessed through a web browser. | web application
+a markup language used to create web pages. | html/hypertext markup language
+a stylesheet language used to describe the look and formatting of a web page. | css/cascading style sheets
+a programming language used to create interactive web applications. | javascript
+a JavaScript library that simplifies the process of writing JavaScript code for web pages. | jquery
+a technique used to create dynamic and responsive web applications without reloading the entire web page. | ajax/asynchronous javascript and xml
+an API that uses HTTP requests to retrieve, create, update, or delete data. | restful api/representational state transfer application programming interface
+a lightweight data interchange format that is easy for humans to read and write and easy for machines to parse and generate. | json/javascript object notation
+a test that verifies the functionality of a single unit or component of a software system. | unit test
+a software development process that emphasizes writing automated tests before writing the code. | test-driven development
+a software development practice where changes to the code are automatically tested and integrated into the main codebase. | continuous integration
+a software development practice where changes to the code are automatically tested and released to production. | continuous delivery
+a containerization platform that allows developers to create, deploy, and run applications in a virtualized environment. | docker
+an open-source container orchestration platform that automates the deployment, scaling, and management of containerized applications. | kubernetes
+a version control system used to track changes to code and collaborate with other developers. | Git
+a web-based platform for hosting and collaborating on Git repositories. | Github
+a process where one or more developers review code written by another developer to ensure its quality and adherence to coding standards. | code review
+the process of restructuring existing code without changing its functionality to improve its readability, maintainability, and performance. | code refactoring

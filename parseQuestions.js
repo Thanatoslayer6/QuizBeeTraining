@@ -6,11 +6,11 @@
 // for (let i = 0; i < rawData.)
 
 var lineReader = require('readline').createInterface({
-    input: require('fs').createReadStream('networking.txt')
+    input: require('fs').createReadStream('programming.txt')
 });
 
 lineReader.on('line', function (line) {
-    let stuff = line.split('-');
+    let stuff = line.split('|');
     let question = stuff[0].trimEnd();
     let answer = stuff[1].trim();
     console.log(`\{
