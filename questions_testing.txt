@@ -1,5 +1,0 @@
-~ cybersecurity ~
-is a security measure that requires users to provide two forms of identification to gain access to a system or network. - two-factor authentication/2fa
-is a secure, encrypted network connection that allows users to access a private network from a public network, such as the internet. - virtual private network/vpn
-is a cyberattack that involves overwhelming a computer system or network with traffic, making it unavailable to users. - denial-of-service/dos
-is a type of DoS attack that uses multiple compromised computers to flood a system or network with traffic, making it unavailable to users. - distributed denial-of-service/ddos

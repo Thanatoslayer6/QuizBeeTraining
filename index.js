@@ -11,7 +11,7 @@ let programmingScore = 0;
 let questions = JSON.parse(rawData);
 
 console.log(`Loaded ${questions.cybersecurity.length} cybersecurity questions`);
-// console.log(`Loaded ${questions.networking.length} networking questions`);
+console.log(`Loaded ${questions.networking.length} networking questions`);
 // console.log(`Loaded ${questions.programming.length} programming questions`);
 
 const isValidAnswer = (userInput, possibleAnswers) => {
@@ -22,7 +22,43 @@ const isValidAnswer = (userInput, possibleAnswers) => {
     return answerPattern.test(userInput);
 }
 
+const answerNetworking = async () => {
+    console.log(`\n~ NETWORKING REVIEW ~\n`);
+    for (let i = 0; i < questions.networking.length; i++) {
+        // Prompt the user for input
+        const response = await prompt({
+            type: 'input',
+            name: 'answer',
+            message: questions.networking[i].question,
+        });
+        // First we check the possible answers of the question if multiple
+        if (questions.networking[i].answer.includes('/')) {
+            // Then we split the possible answers
+            let possibleAnswers = questions.networking[i].answer.split('/');
+            if (isValidAnswer(response.answer, possibleAnswers)) {
+                console.log("CORRECT ✓\n");
+                networkingScore++;
+                continue;
+            } else {
+                console.log("INCORRECT ✗  -> " + questions.networking[i].answer + "\n");
+                continue;
+            }
+        } 
+
+        // If there is only one possible answer
+        if (response.answer.toLowerCase() === questions.networking[i].answer.toLowerCase()) {
+            console.log("CORRECT ✓\n");
+            networkingScore++;
+            continue;
+        } else {
+            console.log("INCORRECT ✗  -> " + questions.networking[i].answer + "\n");
+            continue;
+        }
+    }
+}
+
 const answerCybersecurity = async () => {
+    console.log(`\n~ CYBERSECURITY REVIEW ~\n`);
     for (let i = 0; i < questions.cybersecurity.length; i++) {
         // Prompt the user for input
         const response = await prompt({
@@ -59,6 +95,7 @@ const answerCybersecurity = async () => {
 
 const main = async () => {
     await answerCybersecurity();
+    await answerNetworking();
     console.log(`
         Cybersecurity Score: ${cybersecurityScore}/${questions.cybersecurity.length}
         Networking Score: ${networkingScore}/${questions.networking.length}

@@ -1,0 +1,50 @@
+a collection of interconnected devices that are capable of exchanging data and resources. - network
+a network that is confined to a relatively small geographic area such as a building or campus. - LAN/Local area network
+a network that covers a larger geographic area than a LAN, such as a city or country. - WAN/Wide area network
+a device that connects multiple networks together and forwards data packets between them. - router
+a networking device that connects devices on a LAN and forwards data between them. - switch
+a network security device that monitors and controls incoming and outgoing network traffic based on predetermined security rules. - firewall
+a network that allows remote users to securely access a private network over the internet. - VPN/Virtual private network
+a protocol that translates human readable domain names into IP addresses that computers can use to identify each other on a network. - DNS/Domain name system
+a set of rules that govern the exchange of data between devices on a network. - protocol
+the most commonly used protocol suite for transmitting data over the internet and other networks. - TCP/IP
+refers to the amount of data that can be transmitted over a network in a given amount of time. - bandwidth
+the delay that occurs between the sending of a data packet and its receipt at the destination device. - latency
+a unit of data that is transmitted over a network. - packet
+a unique identifier assigned to a network interface controller (NIC) for use on a network. - MAC Address/Media access control address
+a unique identifier assigned to each device on a network for the purpose of identifying and communicating with other devices. - IP Address/Internet protocol address
+a technique used to map one IP address space into another by modifying network address information in the IP header of packets while they are in transit across a traffic routing device. - NAT/Network address translation
+a numeric code that defines the range of IP addresses that are available on a particular network. - subnet mask
+a device that connects two or more networks and routes data between them. - gateway
+a communication endpoint on a computer or network that allows a specific process or application to send and receive data. - port
+a command used to test the connectivity between two devices on a network by sending a small packet of data and measuring the time it takes for a response to be received. - ping
+a command used to trace the route that packets take between two devices on a network. - traceroute
+a protocol used for transferring files between computers on a network. - ftp/file transfer protocol
+a protocol used for transferring data between a client and server over the internet. - http/hypertext transfer protocol
+a protocol used for sending email over the internet. - smtp/simple mail transfer protocol
+a protocol used for retrieving email from a mail server. - post office protocol/pop
+a protocol used for retrieving and managing email messages from a mail server. - IMAP/Internet message access protocol
+a technology that allows voice communication over the internet. - voip/voice over internet protocol
+a protocol used for secure communication over the internet. - ssl/secure sockets layer
+a protocol used for secure communication over the internet. - tls/transport layer security
+the process of converting plain text data into a coded form to protect it from unauthorized access. - encryption
+the process of converting encrypted data back into plain text. - decryption
+a secure, encrypted connection between two devices over the internet. - vpn tunnel
+a network segment that is isolated from the internal network and exposed to the internet to provide services such as web servers. - dmz/demilitarized zone
+a device that distributes network traffic across multiple servers to improve performance and reliability. - load balancer
+a server that acts as an intermediary between a client and a server, and can be used to control access to resources on a network. - proxy server
+the physical or logical arrangement of devices on a network. - network topology
+a network topology in which every device is connected to every other device, providing redundancy and self healing capabilities. - mesh network/mesh/mesh topology
+a network topology in which all devices are connected to a central hub or switch. - star network/star/star topology
+a network topology in which all devices are connected to a single cable or transmission line. - bus network/bus/bus topology
+a network topology in which all devices are connected to a single cable or transmission line in a circular configuration. - ring network/ring/ring topology
+a network segment in which all devices can receive broadcast messages sent by any other device on the same segment. - broadcast domain
+a network segment in which packets from multiple devices can collide with each other, leading to data loss and network congestion. - collision domain
+a logical grouping of devices on a network that allows for the creation of separate broadcast domains. - vlan/virtual lan
+a portion of a larger network that has been divided into smaller, more manageable segments. - subnet
+a database maintained by a switch that associates MAC addresses with the ports on which they are connected. - mac table
+a network condition in which broadcast messages are continuously propagated on a network, causing congestion and network performance issues. - broadcast storm
+a hardware component that enables a computer or other device to connect to a network. - network interface card/NIC
+a networking device that amplifies and retransmits signals to extend the range of a network. - repeater
+a networking device that connects multiple devices on a network and forwards data between them. - hub
+a person responsible for managing and maintaining a computer network. Their duties may include setting up and configuring network devices, monitoring network performance, and troubleshooting network issues. - network administrator

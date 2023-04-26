@@ -90,7 +90,7 @@
         },
         {
         "question": "a type of cyberattack where an attacker intercepts communications between two parties to eavesdrop or modify the conversation.",
-        "answer": "man-in-the-middle attack"
+        "answer": "man-in-the-middle attack/man in the middle/man-in-the-middle"
         },
         {
         "question": "any event that violates an organization's security policies, compromises its assets or operations, or poses a threat to its confidentiality, integrity, or availability.",
@@ -197,6 +197,206 @@
         "answer": "cyber insurance"
         }
     ],
-    "networking": [],
+    "networking": [
+    {
+       "question": "a collection of interconnected devices that are capable of exchanging data and resources.",
+       "answer": "network"
+    },
+    {
+       "question": "a network that is confined to a relatively small geographic area such as a building or campus.",
+       "answer": "LAN/Local area network"
+    },
+    {
+       "question": "a network that covers a larger geographic area than a LAN, such as a city or country.",
+       "answer": "WAN/Wide area network"
+    },
+    {
+       "question": "a device that connects multiple networks together and forwards data packets between them.",
+       "answer": "router"
+    },
+    {
+       "question": "a networking device that connects devices on a LAN and forwards data between them.",
+       "answer": "switch"
+    },
+    {
+       "question": "a network security device that monitors and controls incoming and outgoing network traffic based on predetermined security rules.",
+       "answer": "firewall"
+    },
+    {
+       "question": "a network that allows remote users to securely access a private network over the internet.",
+       "answer": "VPN/Virtual private network"
+    },
+    {
+       "question": "a protocol that translates human readable domain names into IP addresses that computers can use to identify each other on a network.",
+       "answer": "DNS/Domain name system"
+    },
+    {
+       "question": "a set of rules that govern the exchange of data between devices on a network.",
+       "answer": "protocol"
+    },
+    {
+       "question": "the most commonly used protocol suite for transmitting data over the internet and other networks.",
+       "answer": "TCP/IP"
+    },
+    {
+       "question": "refers to the amount of data that can be transmitted over a network in a given amount of time.",
+       "answer": "bandwidth"
+    },
+    {
+       "question": "the delay that occurs between the sending of a data packet and its receipt at the destination device.",
+       "answer": "latency"
+    },
+    {
+       "question": "a unit of data that is transmitted over a network.",
+       "answer": "packet"
+    },
+    {
+       "question": "a unique identifier assigned to a network interface controller (NIC) for use on a network.",
+       "answer": "MAC Address/Media access control address"
+    },
+    {
+       "question": "a unique identifier assigned to each device on a network for the purpose of identifying and communicating with other devices.",
+       "answer": "IP Address/Internet protocol address"
+    },
+    {
+       "question": "a technique used to map one IP address space into another by modifying network address information in the IP header of packets while they are in transit across a traffic routing device.",
+       "answer": "NAT/Network address translation"
+    },
+    {
+       "question": "a numeric code that defines the range of IP addresses that are available on a particular network.",
+       "answer": "subnet mask"
+    },
+    {
+       "question": "a device that connects two or more networks and routes data between them.",
+       "answer": "gateway"
+    },
+    {
+       "question": "a communication endpoint on a computer or network that allows a specific process or application to send and receive data.",
+       "answer": "port"
+    },
+    {
+       "question": "a command used to test the connectivity between two devices on a network by sending a small packet of data and measuring the time it takes for a response to be received.",
+       "answer": "ping"
+    },
+    {
+       "question": "a command used to trace the route that packets take between two devices on a network.",
+       "answer": "traceroute"
+    },
+    {
+       "question": "a protocol used for transferring files between computers on a network.",
+       "answer": "ftp/file transfer protocol"
+    },
+    {
+       "question": "a protocol used for transferring data between a client and server over the internet.",
+       "answer": "http/hypertext transfer protocol"
+    },
+    {
+       "question": "a protocol used for sending email over the internet.",
+       "answer": "smtp/simple mail transfer protocol"
+    },
+    {
+       "question": "a protocol used for retrieving email from a mail server.",
+       "answer": "post office protocol/pop"
+    },
+    {
+       "question": "a protocol used for retrieving and managing email messages from a mail server.",
+       "answer": "IMAP/Internet message access protocol"
+    },
+    {
+       "question": "a technology that allows voice communication over the internet.",
+       "answer": "voip/voice over internet protocol"
+    },
+    {
+       "question": "a protocol used for secure communication over the internet.",
+       "answer": "ssl/secure sockets layer"
+    },
+    {
+       "question": "a protocol used for secure communication over the internet.",
+       "answer": "tls/transport layer security"
+    },
+    {
+       "question": "the process of converting plain text data into a coded form to protect it from unauthorized access.",
+       "answer": "encryption"
+    },
+    {
+       "question": "the process of converting encrypted data back into plain text.",
+       "answer": "decryption"
+    },
+    {
+       "question": "a secure, encrypted connection between two devices over the internet.",
+       "answer": "vpn tunnel"
+    },
+    {
+       "question": "a network segment that is isolated from the internal network and exposed to the internet to provide services such as web servers.",
+       "answer": "dmz/demilitarized zone"
+    },
+    {
+       "question": "a device that distributes network traffic across multiple servers to improve performance and reliability.",
+       "answer": "load balancer"
+    },
+    {
+       "question": "a server that acts as an intermediary between a client and a server, and can be used to control access to resources on a network.",
+       "answer": "proxy server"
+    },
+    {
+       "question": "the physical or logical arrangement of devices on a network.",
+       "answer": "network topology"
+    },
+    {
+       "question": "a network topology in which every device is connected to every other device, providing redundancy and self healing capabilities.",
+       "answer": "mesh network/mesh/mesh topology"
+    },
+    {
+       "question": "a network topology in which all devices are connected to a central hub or switch.",
+       "answer": "star network/star/star topology"
+    },
+    {
+       "question": "a network topology in which all devices are connected to a single cable or transmission line.",
+       "answer": "bus network/bus/bus topology"
+    },
+    {
+       "question": "a network topology in which all devices are connected to a single cable or transmission line in a circular configuration.",
+       "answer": "ring network/ring/ring topology"
+    },
+    {
+       "question": "a network segment in which all devices can receive broadcast messages sent by any other device on the same segment.",
+       "answer": "broadcast domain"
+    },
+    {
+       "question": "a network segment in which packets from multiple devices can collide with each other, leading to data loss and network congestion.",
+       "answer": "collision domain"
+    },
+    {
+       "question": "a logical grouping of devices on a network that allows for the creation of separate broadcast domains.",
+       "answer": "vlan/virtual lan"
+    },
+    {
+       "question": "a portion of a larger network that has been divided into smaller, more manageable segments.",
+       "answer": "subnet"
+    },
+    {
+       "question": "a database maintained by a switch that associates MAC addresses with the ports on which they are connected.",
+       "answer": "mac table"
+    },
+    {
+       "question": "a network condition in which broadcast messages are continuously propagated on a network, causing congestion and network performance issues.",
+       "answer": "broadcast storm"
+    },
+    {
+       "question": "a hardware component that enables a computer or other device to connect to a network.",
+       "answer": "network interface card/NIC"
+    },
+    {
+       "question": "a networking device that amplifies and retransmits signals to extend the range of a network.",
+       "answer": "repeater"
+    },
+    {
+       "question": "a networking device that connects multiple devices on a network and forwards data between them.",
+       "answer": "hub"
+    },
+    {
+       "question": "a person responsible for managing and maintaining a computer network. Their duties may include setting up and configuring network devices, monitoring network performance, and troubleshooting network issues.",
+       "answer": "network administrator"
+    }],
     "programming": []
 }
