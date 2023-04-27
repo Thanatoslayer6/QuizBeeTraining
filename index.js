@@ -81,81 +81,18 @@ const answerQuestions = async (topic, topicName) => {
     return score;
 }
 
-
-
-/*
-const answerNetworking = async () => {
-    console.log(`\n~ NETWORKING REVIEW ~\n`);
-    for (let i = 0; i < questions.networking.length; i++) {
-        // Prompt the user for input
-        const response = await prompt({
-            type: 'input',
-            name: 'answer',
-            message: questions.networking[i].question,
-        });
-        // First we check the possible answers of the question if multiple
-        if (questions.networking[i].answer.includes('/')) {
-            // Then we split the possible answers
-            let possibleAnswers = questions.networking[i].answer.split('/');
-            if (isValidAnswer(response.answer, possibleAnswers)) {
-                console.log("CORRECT ✓\n");
-                networkingScore++;
-                continue;
-            } else {
-                console.log("INCORRECT ✗  -> " + questions.networking[i].answer + "\n");
-                continue;
-            }
-        } 
-
-        // If there is only one possible answer
-        if (response.answer.toLowerCase() === questions.networking[i].answer.toLowerCase()) {
-            console.log("CORRECT ✓\n");
-            networkingScore++;
-            continue;
-        } else {
-            console.log("INCORRECT ✗  -> " + questions.networking[i].answer + "\n");
-            continue;
-        }
-    }
+const menu = async (menuChoices) => {
+    console.log(`\n~ Welcome to I.T Wizard Reviewer ~\n`);
+    const response = await prompt({
+        type: 'select',
+        name: 'action',
+        message: "Please select an action",
+        choices: menuChoices,
+    });
+    return response.action
 }
 
-const answerCybersecurity = async () => {
-    console.log(`\n~ CYBERSECURITY REVIEW ~\n`);
-    for (let i = 0; i < questions.cybersecurity.length; i++) {
-        // Prompt the user for input
-        const response = await prompt({
-            type: 'input',
-            name: 'answer',
-            message: questions.cybersecurity[i].question,
-        });
-        // First we check the possible answers of the question if multiple
-        if (questions.cybersecurity[i].answer.includes('/')) {
-            // Then we split the possible answers
-            let possibleAnswers = questions.cybersecurity[i].answer.split('/');
-            if (isValidAnswer(response.answer, possibleAnswers)) {
-                console.log("CORRECT ✓\n");
-                cybersecurityScore++;
-                continue;
-            } else {
-                console.log("INCORRECT ✗  -> " + questions.cybersecurity[i].answer + "\n");
-                continue;
-            }
-        } 
-
-        // If there is only one possible answer
-        if (response.answer.toLowerCase() === questions.cybersecurity[i].answer.toLowerCase()) {
-            console.log("CORRECT ✓\n");
-            cybersecurityScore++;
-            continue;
-        } else {
-            console.log("INCORRECT ✗  -> " + questions.cybersecurity[i].answer + "\n");
-            continue;
-        }
-    }
-}
-*/
-
-const main = async () => {
+const freeplay = async () => {
     let cybersecurityScore = await answerQuestions(questions.cybersecurity, "CYBERSECURITY");
     console.log(`~ Cybersecurity Score: ${cybersecurityScore}/${questions.cybersecurity.length} ~`)
     let networkingScore =  await answerQuestions(questions.networking, "NETWORKING");
@@ -171,6 +108,33 @@ const main = async () => {
     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
     `);
+}
+
+const main = async () => {
+    // Ask user if he wants to review all of the terms
+    const menuChoices = ["Freeplay (all topics)", "Train a specific topic", "Review a topic"]
+    const menuAction = await menu(menuChoices);
+    console.log(menuAction)
+    if (menuAction == menuChoices[0]) {
+        console.log("Testing")
+        await freeplay();
+    } else if (menuAction == menuChoices[1]) {
+
+    } else if (menuAction == menuChoices[2]) {
+
+    }
+    // switch (menuAction) {
+    //     case menuChoices[0]:
+    //         console.log("Testing")
+    //         await freeplay();
+    //         break;
+    //     case menuChoices[1]:
+    //         break;
+    //     case menuChoices[2]:
+    //         break;
+    //     default:
+    //         break;
+    // }
 }
 
 main();
