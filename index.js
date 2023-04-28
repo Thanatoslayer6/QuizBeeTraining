@@ -156,12 +156,12 @@ const answerCybersecurity = async () => {
 */
 
 const main = async () => {
+    let programmingScore =  await answerQuestions(questions.programming, "PROGRAMMING");
+    console.log(`~ Programming Score: ${programmingScore}/${questions.programming.length} ~`)
     let cybersecurityScore = await answerQuestions(questions.cybersecurity, "CYBERSECURITY");
     console.log(`~ Cybersecurity Score: ${cybersecurityScore}/${questions.cybersecurity.length} ~`)
     let networkingScore =  await answerQuestions(questions.networking, "NETWORKING");
     console.log(`~ Networking Score: ${networkingScore}/${questions.networking.length} ~`)
-    let programmingScore =  await answerQuestions(questions.programming, "PROGRAMMING");
-    console.log(`~ Programming Score: ${programmingScore}/${questions.programming.length} ~`)
     console.log(`
 
     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
