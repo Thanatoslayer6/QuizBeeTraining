@@ -497,6 +497,14 @@
       "answer": "binary tree"
     },
     {
+      "question": "an algorithm used to efficiently search for an item in a sorted array by repeatedly dividing the search interval in half",
+      "answer": "binary search"
+    },
+    {
+      "question": "a small anonymous function that can be used to pass behavior as an argument to another function, or to create a function on-the-fly",
+      "answer": "lambda/lambda function"
+    },
+    {
       "question": "a programming technique where a function calls itself to solve a problem.",
       "answer": "recursion"
     },
@@ -671,6 +679,22 @@
     {
       "question": "Identifies the web address or location of a unique resource.",
       "answer": "url/Uniform Resource Locator"
+    }, 
+    {
+      "question": "a variable that stores the memory address of another variable",
+      "answer": "pointer"
+    },
+    {
+      "question": "a function that has access to variables in its outer function, even after the outer function has returned.",
+      "answer": "closure"
+    },
+    {
+      "question": "a situation where two or more threads are blocked waiting for each other to release resources, resulting in a standstill of the program.",
+      "answer": "deadlock"
+    }, 
+    {
+      "question": "used to automatically reclaim memory that is no longer being used by the program, thus preventing memory leaks and other memory-related issues.",
+      "answer": "garbage collector"
     }
   ]
 }
