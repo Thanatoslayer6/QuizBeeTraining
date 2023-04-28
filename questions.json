@@ -195,6 +195,10 @@
     {
       "question": "A type of insurance that provides coverage for losses or damages related to cyberattacks or data breaches, such as legal fees, notification costs, or business interruption.",
       "answer": "cyber insurance"
+    },
+    {
+      "question": "The process of identifying a user's identity, making sure that they can have access to the system and/or files.",
+      "answer": "authentication"
     }
   ],
   "networking": [
@@ -599,6 +603,74 @@
     {
       "question": "the process of restructuring existing code without changing its functionality to improve its readability, maintainability, and performance.",
       "answer": "code refactoring"
+    },
+    {
+      "question": "A machine that, given enough time and memory along with the necessary instructions, can solve any computational problem, no matter how complex.",
+      "answer": "Turing Complete"
+    },
+    {
+      "question": "The simulation of human intelligence processes by machines, especially computer systems.",
+      "answer": "ai/Artificial Intelligence"
+    },
+    {
+      "question": "A system for counting that uses only two characters: 1 and 0.",
+      "answer": "Binary"
+    },
+    {
+      "question": "A text-based user interface (UI) used to run programs, manage computer files and interact with the computer.",
+      "answer": "cli/Command-line Interface"
+    },
+    {
+      "question": "The software that directly manages a system's hardware and resources, like CPU, memory, and storage.",
+      "answer": "os/Operating System"
+    },
+    {
+      "question": "An open-source operating system.",
+      "answer": "Linux"
+    },
+    {
+      "question": "A non-linear kind of data structure made up of nodes or vertices and edges.",
+      "answer": "Graph"
+    },
+    {
+      "question": "Simple abstract computational devices intended to help investigate the extent and limitations of what can be computed.",
+      "answer": "Turing Machines"
+    },
+    {
+      "question": "A stack data structure that stores information about the active subroutines of a computer program.",
+      "answer": "Call Stack"
+    },
+    {
+      "question": "A type of buffer overflow error that occurs when a computer program tries to use more memory space in the call stack than has been allocated to that stack.",
+      "answer": "Stack Overflow/Stack Overflow Error"
+    },
+    {
+      "question": "A metric for determining an algorithm's efficiency.",
+      "answer": "Big-O Notation"
+    },
+    {
+      "question": "An algorithm recursively breaks down a problem into two or more sub-problems of the same or related type, until these become simple enough to be solved directly.",
+      "answer": "Divide and Conquer"
+    },
+    {
+      "question": "An optimization technique used primarily to speed up computer programs by storing the results of expensive function calls and returning the cached result when the same inputs occur again.",
+      "answer": "Memoization"
+    },
+    {
+      "question": "An algorithm that only finds the shortest path from a specified source to a specified goal.",
+      "answer": "A* algorithm/A-star algorithm"
+    },
+    {
+      "question": "A value that enables a program to indirectly access a particular data, such as a variable's value or a record, in the computer's memory or in some other storage device.",
+      "answer": "Reference"
+    },
+    {
+      "question": "Identifies a resource and differentiates it from others by using a name, location, or both.",
+      "answer": "uri/Uniform Resource Identifier"
+    },
+    {
+      "question": "Identifies the web address or location of a unique resource.",
+      "answer": "url/Uniform Resource Locator"
     }
   ]
 }

@@ -24,7 +24,7 @@ const shuffle = (array) => {
     array[i] = t;
   }
 
-  return array;
+  return array.slice(0, 50);
 }
 
 console.log(`Loaded ${questions.cybersecurity.length} cybersecurity questions`);
