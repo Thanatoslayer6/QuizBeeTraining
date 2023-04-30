@@ -771,7 +771,7 @@
     {
       "question": "Identifies the web address or location of a unique resource.",
       "answer": "url/Uniform Resource Locator"
-    }, 
+    },
     {
       "question": "a variable that stores the memory address of another variable",
       "answer": "pointer"
@@ -783,7 +783,7 @@
     {
       "question": "a situation where two or more threads are blocked waiting for each other to release resources, resulting in a standstill of the program.",
       "answer": "deadlock"
-    }, 
+    },
     {
       "question": "used to automatically reclaim memory that is no longer being used by the program, thus preventing memory leaks and other memory-related issues.",
       "answer": "garbage collector"
@@ -791,7 +791,7 @@
     {
       "question": "a function that is passed as an argument to another function and is called by that function at a later time.",
       "answer": "callback function"
-    }, 
+    },
     {
       "question": "a data structure that maps keys to values for efficient lookup and retrieval. It uses a hash function to compute an index into an array of buckets or slots, where the corresponding value can be found.",
       "answer": "hashmap/hash table"
@@ -839,6 +839,34 @@
     {
       "question": "a synchronization primitive used to limit the number of threads that can access a resource at a given time",
       "answer": "semaphore"
+    },
+    {
+      "question": "a design pattern that allows you to modify the functionality of a function by wrapping it in another function.",
+      "answer": "decorator"
+    },
+    {
+      "question": "a file containing a set of functions or variables that can be imported and used in other programs.",
+      "answer": "module"
+    },
+    {
+      "question": "a collection of modules that can be imported and used in other programs organized in a directory hierarchy.",
+      "answer": "package"
+    },
+    {
+      "question": "a sequence of characters that specifies a search pattern in any given text.",
+      "answer": "regex/regular expression"
+    },
+    {
+      "question": "a function that returns an iterator that produces a sequence of values when iterated over.",
+      "answer": "generator"
+    },
+    {
+      "question": "an error condition or abnormal behavior that occurs during the execution of a program, which disrupts the normal flow of the program.",
+      "answer": "exception"
+    },
+    {
+      "question": "a small set of instructions designed to be scheduled and executed by the CPU independently of the parent process.",
+      "answer": "thread"
     }
   ]
 }
