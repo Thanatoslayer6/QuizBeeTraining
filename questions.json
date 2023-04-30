@@ -5,6 +5,42 @@
       "answer": "cybersecurity"
     },
     {
+      "question": "a framework for information security that consists of confidentiality, integrity, and availability. It is important because it provides a comprehensive approach to security that covers all aspects of data protection.",
+      "answer": "CIA Triad"
+    },
+    {
+      "question": "an that attack occurs when an attacker intercepts and takes control of a legitimate user's session on a website or network",
+      "answer": "session hijacking"
+    },
+    {
+      "question": "an attack that exploits a vulnerability in a web application that allows an attacker to inject malicious SQL code into a database query",
+      "answer": "sql injection"
+    },
+    {
+      "question": "an attack that exploits a vulnerability in a program or system that allows an attacker to overwrite adjacent memory locations with malicious code",
+      "answer": "buffer overflow"
+    },
+    {
+      "question": "a method used by attackers to gain unauthorized access to a system or account by trying every possible password combination until the correct one is found.",
+      "answer": "bruteforce/brute-force/bruteforce attack"
+    },
+    {
+      "question": "an encryption uses the same key to encrypt and decrypt data",
+      "answer": "Symmetric encryption"
+    },
+    {
+      "question": "an encryption that uses a pair of keys - a public key for encryption and a private key for decryption.",
+      "answer": "Asymmetric encryption"
+    },
+    {
+      "question": "a type of malware that allows an attacker to gain root-level access to a computer system and hide their activities from detection.",
+      "answer": "rootkit"
+    },
+    {
+      "question": "is the practice of hiding information within another file or message, such as an image or text document. It can be used in cyber security to conceal sensitive information from unauthorized access.",
+      "answer": "steganography"
+    },
+    {
       "question": "a malicious attempt to damage, disrupt, or gain unauthorized access to a computer system or network.",
       "answer": "cyberattack"
     },
@@ -19,6 +55,10 @@
     {
       "question": "a malicious program that can infect a computer system and spread from one system to another.",
       "answer": "virus"
+    },
+    {
+      "question": "a program that appears to be benign or useful but actually carries out malicious actions. It can also act as a backdoor to allow remote access to a compromised system.",
+      "answer": "trojan"
     },
     {
       "question": "a term used to describe any malicious software designed to harm or disrupt computer systems.",
@@ -203,6 +243,46 @@
   ],
   "networking": [
     {
+      "question": "a type of communication in both directions but not at the same time",
+      "answer": "half-duplex/half duplex"
+    },
+    {
+      "question": "a conceptual framework used to describe the functions of a networking system",
+      "answer": "OSI model/open systems interconnection model"
+    },
+    {
+      "question": "A tool that captures and analyzes network traffic, used to troubleshoot network issues",
+      "answer": "protocol analyzer"
+    },
+    {
+      "question": "When two devices on a network have the same IP address, causing communication issues.",
+      "answer": "IP Address conflict"
+    },
+    {
+      "question": "A set of protocols used to communicate between devices on a network, typically organized into layers.",
+      "answer": "protocol stack"
+    },
+    {
+      "question": "A table used by routers to determine the best path for forwarding data to its destination.",
+      "answer": "routing table"
+    },
+    {
+      "question": "a protocol or procedure that connects an ever-changing Internet Protocol (IP) address to a fixed physical machine address, also known as a media access control (MAC) address, in a local-area network (LAN).",
+      "answer": "ARP/Address resolution protocol"
+    },
+    {
+      "question": "When one device on a network responds to an ARP request for another device, typically used in situations where a device's physical address is unknown.",
+      "answer": "proxy arp"
+    },
+    {
+      "question": "a type of communication in both directions simultaneously",
+      "answer": "full-duplex/full duplex"
+    },
+    {
+      "question": "a set of techniques used to manage network resources and prioritize network traffic to ensure that certain types of data receive better service than others.",
+      "answer": "QoS/quality of service"
+    },
+    {
       "question": "a collection of interconnected devices that are capable of exchanging data and resources.",
       "answer": "network"
     },
@@ -219,7 +299,7 @@
       "answer": "router"
     },
     {
-      "question": "a networking device that connects devices on a LAN and forwards data between them.",
+      "question": "a networking device that connects devices on a LAN and forwards data specifically between them. (data is sent only to the intended recipient)",
       "answer": "switch"
     },
     {
@@ -241,6 +321,14 @@
     {
       "question": "the most commonly used protocol suite for transmitting data over the internet and other networks.",
       "answer": "TCP/IP"
+    },
+    {
+      "question": " a connection-oriented protocol that guarantees the delivery of packets",
+      "answer": "TCP/Transmission control protocol"
+    },
+    {
+      "question": "a connectionless protocol that does not guarantee packet delivery",
+      "answer": "UDP/User datagram protocol"
     },
     {
       "question": "refers to the amount of data that can be transmitted over a network in a given amount of time.",
@@ -267,7 +355,7 @@
       "answer": "NAT/Network address translation"
     },
     {
-      "question": "a numeric code that defines the range of IP addresses that are available on a particular network.",
+      "question": "a numeric code (a 32-bit number) that defines the range of IP addresses that are available on a particular network.",
       "answer": "subnet mask"
     },
     {
@@ -279,7 +367,7 @@
       "answer": "port"
     },
     {
-      "question": "a command used to test the connectivity between two devices on a network by sending a small packet of data and measuring the time it takes for a response to be received.",
+      "question": "a command used to test the connectivity between two devices on a network by sending a small packet of data (ICMP) and measuring the time it takes for a response to be received.",
       "answer": "ping"
     },
     {
@@ -395,7 +483,7 @@
       "answer": "repeater"
     },
     {
-      "question": "a networking device that connects multiple devices on a network and forwards data between them.",
+      "question": "a networking device that connects multiple devices on a network and forwards data between all of them.",
       "answer": "hub"
     },
     {
@@ -457,7 +545,7 @@
       "answer": "inheritance"
     },
     {
-      "question": "a feature of object-oriented programming that allows objects of different types to be treated as if they were of the same type.",
+      "question": "a feature of object-oriented programming that allows objects of different types to be treated as if they were of the same type. The ability of an object to take on multiple forms or behaviors",
       "answer": "polymorphism"
     },
     {
@@ -499,6 +587,10 @@
     {
       "question": "an algorithm used to efficiently search for an item in a sorted array by repeatedly dividing the search interval in half",
       "answer": "binary search"
+    },
+    {
+      "question": " a binary tree in which the left subtree of a node contains only nodes with keys less than the node's key, and the right subtree contains only nodes with keys greater than the node's key.",
+      "answer": "binary search tree"
     },
     {
       "question": "a small anonymous function that can be used to pass behavior as an argument to another function, or to create a function on-the-fly",
@@ -679,7 +771,7 @@
     {
       "question": "Identifies the web address or location of a unique resource.",
       "answer": "url/Uniform Resource Locator"
-    }, 
+    },
     {
       "question": "a variable that stores the memory address of another variable",
       "answer": "pointer"
@@ -691,14 +783,62 @@
     {
       "question": "a situation where two or more threads are blocked waiting for each other to release resources, resulting in a standstill of the program.",
       "answer": "deadlock"
-    }, 
+    },
     {
       "question": "used to automatically reclaim memory that is no longer being used by the program, thus preventing memory leaks and other memory-related issues.",
       "answer": "garbage collector"
     },
     {
-      "question": "a function passed into another function as an argument, which is then invoked inside the outer function to complete some kind of routine or action.",
+      "question": "a function that is passed as an argument to another function and is called by that function at a later time.",
       "answer": "callback function"
+    },
+    {
+      "question": "a data structure that maps keys to values for efficient lookup and retrieval. It uses a hash function to compute an index into an array of buckets or slots, where the corresponding value can be found.",
+      "answer": "hashmap/hash table"
+    },
+    {
+      "question": "what is the time complexity of the Quicksort algorithm?",
+      "answer": "O(n log n)/O(nlogn)"
+    },
+    {
+      "question": "a technique used to solve complex problems by breaking them down into smaller subproblems, and storing solutions to those subproblems to avoid redundant computations.",
+      "answer": "dynamic programming"
+    },
+    {
+      "question": "what is the time complexity of the Merge sort algorithm?",
+      "answer": "O(n log n)"
+    },
+    {
+      "question": " a type that is defined by its behavior rather than its implementation.",
+      "answer": "abstract data type"
+    },
+    {
+      "question": "what is the time complexity of the Binary Search algorithm?",
+      "answer": "O(log n)/O(logn)"
+    },
+    {
+      "question": "a binary tree in which the parent node is smaller or greater than both of its children.",
+      "answer": "binary heap"
+    },
+    {
+      "question": "what is the time complexity of the insertion sort algorithm?",
+      "answer": "O(n^2)"
+    },
+    {
+      "question": "libraries that are linked to the program at compile time",
+      "answer": "static library/static libraries"
+    },
+    {
+      "question": "libraries that are linked to the program at runtime",
+      "answer": "dynamic library/dynamic libraries"
+    },
+    {
+      "question": "a synchronization primitive used to prevent multiple threads from accessing shared resources simultaneously.",
+      "answer": "mutex"
+    },
+    {
+      "question": "a synchronization primitive used to limit the number of threads that can access a resource at a given time",
+      "answer": "semaphore"
     },
     {
       "question": "a design pattern that allows you to modify the functionality of a function by wrapping it in another function.",
@@ -727,14 +867,6 @@
     {
       "question": "a small set of instructions designed to be scheduled and executed by the CPU independently of the parent process.",
       "answer": "thread"
-    },
-    {
-      "question": "a synchronization mechanism that is used to prevent multiple threads from accessing a shared resource simultaneously.",
-      "answer": "mutex"
-    },
-    {
-      "question": "a synchronization mechanism that is used to control access to a shared resource by multiple threads or processes.",
-      "answer": "semaphore"
     }
   ]
 }
